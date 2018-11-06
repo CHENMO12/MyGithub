@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        h1{
+            text-align: center;
+            margin: 150px auto;
+            color: blueviolet;
+        }
+        section {
+            width: 450px;
+            height: 253px;
+            /*边框*/
+            border: 1px solid yellow;
+            margin: 200px auto;
+            background-image: url(./images/kobe.jpeg);
+            background-repeat: no-repeat;
+            position: relative;
+            perspective: 800px;
+
+        }
+        /*设置两个盒子的大小*/
+        .door-l, .door-r{
+            position: absolute;
+            top: 0px;
+            width: 50%;
+            height: 100%;
+            background-color: #673ab7;
+            transition: 1s;
+
+        }
+        /*两个盒子的位置 最左 最右*/
+        .door-l {
+            left: 0;
+            border-right: 1px solid yellow;
+            transform-origin: left;
+
+        }
+        .door-r {
+            right: 0;
+            border-left: 1px solid yellow;
+            transform-origin: right;
+
+        }
+        /*盒子添加文字 确定位置*/
+        .door-l::before{
+            content: "黑  曼";
+            position: absolute;
+            right: 6%;
+            top:32%;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        .door-r::before{
+            content: "巴";
+            position: absolute;
+            right: 72%;
+            top: 32%;
+            font-size: 50px;
+            font-weight: bold;
+        }
+        /*设置盒子旋转*/
+        section:hover .door-l {
+            transform: rotateY(-120deg);
+        }
+        section:hover .door-r {
+            transform: rotateY(120deg);
+        }
+        /*section:hover{*/
+            /*transform: translateZ(100px);*/
+        /*}*/
+        section:hover{
+            box-shadow: 0 8px 6px rgba(255,255,255,0.3);
+        }
+
+    </style>
+</head>
+<body>
+<h1>Black Mamba</h1>
+<section>
+    <div class="door-l"></div>
+    <div class="door-r"></div>
+</section>
+</body>
+</html>

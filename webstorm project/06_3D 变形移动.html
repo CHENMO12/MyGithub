@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            perspective: 500px;
+            /*//透视 眼睛 到屏幕的距离*/
+        }
+        div {
+            width: 200px;
+            height: 200px;
+            background-color: rebeccapurple;
+            transition: all 1s;
+            margin: 100px auto;
+            text-align: center;
+        }
+        div:hover {
+            transform: translateZ(100px);
+            background-color:red;
+            box-shadow: 0 6px 6px rgba(0,0,0,0.3);
+
+        }
+    </style>
+</head>
+<body>
+<div>标签栏</div>
+</body>
+</html>
