@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        #a {
+            width: 150px;
+            height: 150px;
+            background-color: orange;
+            /*margin: 100px auto;*/
+            animation: move 2s ease 0s infinite alternate;
+            transition: 1s;
+        }
+        @keyframes move {
+            from {
+                transform: translateX(0);
+
+            }
+            to {
+                /*transform: translateX(0px);*/
+                transform: translateX(1765px);
+            }
+
+        }
+        #b {
+            width: 150px;
+            height: 150px;
+            background-color: blueviolet;
+            margin: 100px ;
+            animation: move2 5s infinite ;
+
+        }
+        @keyframes move2 {
+            0% {
+                transform: translate3d(0,100px,0px);
+            }
+
+            20%{
+                transform: translate3d(1765px,100px,0px);
+            }
+            50%{
+                transform: translate3d(1765px,500px,0px);
+
+            }
+            75%{
+                transform: translate3d(0,500px,0px);
+            }
+            100%{
+                transform: translate3d(0,100px,0px);
+            }
+        }
+    </style>
+</head>
+<body>
+<div id ="a"></div>
+<div id="b"></div>
+
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>好看的动画图片</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        h1{
+           text-align: center;
+            text-shadow: 0px 6px 4px rgba(255,0,0,0.5);
+            font-size: 40px;
+            color: magenta;
+        }
+        ul {
+            list-style: none;
+            width: 200%;
+            animation:girls 30s linear infinite;
+            transition: 1s;
+        }
+        img {
+            width: 250px;
+            height: 300px;
+        }
+        div {
+            width: 1750px;
+            height: 300px;
+            border: 1px solid darkviolet;
+            margin: 100px auto;
+            overflow: hidden;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+
+        }
+        li {
+            float: left;
+        }
+        @keyframes girls {
+            from {
+                transform: translateX(0px);
+            }
+            to{
+                transform: translateX(-1750px);
+            }
+        }
+        ul:hover{
+            animation-play-state: paused;
+        }
+    </style>
+</head>
+<body>
+<h1>玛丽莲梦露&英格曼褒姒</h1>
+<div>
+    <ul>
+        <li ><img src="images/a.jpg" alt="200px 200px"></li>
+        <li ><img src="images/b.jpg" alt="200px 200px"></li>
+        <li ><img src="images/c.jpg" alt="200px 200px"></li>
+        <li ><img src="images/d.jpg" alt="200px 200px"></li>
+        <li ><img src="images/e.jpg" alt="200px 200px"></li>
+        <li ><img src="images/f.jpg" alt="200px 200px"></li>
+        <li ><img src="images/g.jpg" alt="200px 200px"></li>
+        <li ><img src="images/a.jpg" alt="200px 200px"></li>
+        <li ><img src="images/b.jpg" alt="200px 200px"></li>
+        <li ><img src="images/c.jpg" alt="200px 200px"></li>
+        <li ><img src="images/d.jpg" alt="200px 200px"></li>
+        <li ><img src="images/e.jpg" alt="200px 200px"></li>
+        <li ><img src="images/f.jpg" alt="200px 200px"></li>
+        <li ><img src="images/g.jpg" alt="200px 200px"></li>
+
+    </ul>
+</div>
+
+</body>
+</html>
