@@ -1,0 +1,5 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+INFO     root:mylog.py:71 标记为非客户请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'snapId': 170022, 'vipType': 0}
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}

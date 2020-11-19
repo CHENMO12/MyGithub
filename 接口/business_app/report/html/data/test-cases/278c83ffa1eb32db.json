@@ -1,0 +1,220 @@
+{
+  "uid" : "278c83ffa1eb32db",
+  "name" : "test_required_field",
+  "fullName" : "_testcase.business_testcase.TestSaveTraceInfo#test_required_field",
+  "historyId" : "8ddca2da2e009175e473dd805f93b979",
+  "time" : {
+    "start" : 1575278950080,
+    "stop" : 1575278950575,
+    "duration" : 495
+  },
+  "description" : "用例名称：去跟进客户,验证返回内容",
+  "descriptionHtml" : "<p>用例名称：去跟进客户,验证返回内容</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575278939912,
+      "stop" : 1575278939994,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575278939994,
+      "stop" : 1575278950080,
+      "duration" : 10086
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：上传一条抓拍数据",
+      "time" : {
+        "start" : 1575278939994,
+        "stop" : 1575278950080,
+        "duration" : 10086
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "用例名称：去跟进客户,验证返回内容",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575278950080,
+        "stop" : 1575278950574,
+        "duration" : 494
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8b063e505957a0cd",
+        "name" : "接口的相关参数信息",
+        "source" : "8b063e505957a0cd.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575278950574,
+        "stop" : 1575278950574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575278950574,
+        "stop" : 1575278950575,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e9736e797957b61",
+        "name" : "期望状态码：添加成功",
+        "source" : "e9736e797957b61.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "582c7b56f0a4d4b8",
+        "name" : "实际状态码：添加成功",
+        "source" : "582c7b56f0a4d4b8.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "9e6bd34ecfffdc96",
+      "name" : "log",
+      "source" : "9e6bd34ecfffdc96.txt",
+      "type" : "text/plain",
+      "size" : 649
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575278950576,
+      "stop" : 1575278950576,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575278950575,
+      "stop" : 1575278950575,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "去跟进客户"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "去跟进客户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "business_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestSaveTraceInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "199856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.business_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "278c83ffa1eb32db.json",
+  "parameterValues" : [ ]
+}

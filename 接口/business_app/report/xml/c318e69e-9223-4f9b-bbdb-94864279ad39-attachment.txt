@@ -1,0 +1,5 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': 'a3497c61-fe03-41be-b930-dafbe97545fa', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'a3497c61-fe03-41be-b930-dafbe97545fa', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 标记为非客户请求参数:{'token': 'a3497c61-fe03-41be-b930-dafbe97545fa', 'snapId': 169292, 'vipType': 0}
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': 'a3497c61-fe03-41be-b930-dafbe97545fa', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}

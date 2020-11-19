@@ -1,0 +1,291 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "抓拍列表数据",
+    "children" : [ {
+      "name" : "抓拍列表数据",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "6b6fcfdfeb21a3dc",
+        "parentUid" : "af3ccd427769eeba1d6be448e4579057",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305530833,
+          "stop" : 1575305530940,
+          "duration" : 107
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "af3ccd427769eeba1d6be448e4579057"
+    } ],
+    "uid" : "284f5046c5a31d64d59e6548b23241e1"
+  }, {
+    "name" : "抓拍信息列表",
+    "children" : [ {
+      "name" : "抓拍信息列表",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "2a7d05b14fea542b",
+        "parentUid" : "df53cdf6d1ad6cd4379bbe833d429cb3",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305541843,
+          "stop" : 1575305542110,
+          "duration" : 267
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "df53cdf6d1ad6cd4379bbe833d429cb3"
+    } ],
+    "uid" : "319bac7657af8f2fe1a4beabf46eec87"
+  }, {
+    "name" : "去跟进客户",
+    "children" : [ {
+      "name" : "去跟进客户",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "cbb528a8d6c71ca8",
+        "parentUid" : "941da72de9ffe9fbb85106c429844c5e",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305552304,
+          "stop" : 1575305552675,
+          "duration" : 371
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "941da72de9ffe9fbb85106c429844c5e"
+    } ],
+    "uid" : "df2cf6f4910f3c2bdc772ee7989d4efd"
+  }, {
+    "name" : "添加跟进信息",
+    "children" : [ {
+      "name" : "添加跟进信息",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "ca36a86831d167ce",
+        "parentUid" : "0f25f1a8357525c66a36b0627debbc13",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305552755,
+          "stop" : 1575305553159,
+          "duration" : 404
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "0f25f1a8357525c66a36b0627debbc13"
+    } ],
+    "uid" : "3607e701315bab78e0bb50defe95d714"
+  }, {
+    "name" : "我的客户",
+    "children" : [ {
+      "name" : "我的客户",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "7a5c460c27bd709e",
+        "parentUid" : "22a80e614334de8b1a87ef67bf20cd68",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305563667,
+          "stop" : 1575305563715,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "22a80e614334de8b1a87ef67bf20cd68"
+    } ],
+    "uid" : "e4a65421f0fa8ed01e30a866cb3f23a7"
+  }, {
+    "name" : "修改我的客户",
+    "children" : [ {
+      "name" : "修改我的客户",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "d292f7bdc99f9c69",
+        "parentUid" : "3b816b4428be2faedd991f6bd59388cd",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305563792,
+          "stop" : 1575305565922,
+          "duration" : 2130
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "3b816b4428be2faedd991f6bd59388cd"
+    } ],
+    "uid" : "9937b8f866aff01ce2e1ab812b627991"
+  }, {
+    "name" : "客流统计",
+    "children" : [ {
+      "name" : "客流统计",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "53cf1a1577bda9db",
+        "parentUid" : "05a76ac978404da98b43f9639f878a70",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305566029,
+          "stop" : 1575305566077,
+          "duration" : 48
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "05a76ac978404da98b43f9639f878a70"
+    } ],
+    "uid" : "797de03d57ba69f762fdac6a19a585c3"
+  }, {
+    "name" : "标记为非客户",
+    "children" : [ {
+      "name" : "标记为非客户",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "826f9bdd5632aaae",
+        "parentUid" : "295a635a50aeb42bfb3212496e34881a",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305576227,
+          "stop" : 1575305576313,
+          "duration" : 86
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "295a635a50aeb42bfb3212496e34881a"
+    } ],
+    "uid" : "292cc9b44d630b717150d384336396d3"
+  }, {
+    "name" : "查看所有店员的业绩",
+    "children" : [ {
+      "name" : "查看所有店员的业绩",
+      "children" : [ {
+        "name" : "test_required_field",
+        "uid" : "b77784e76430619c",
+        "parentUid" : "9d386615bb4e53150bd8e0f44b5a1dc2",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305576405,
+          "stop" : 1575305576457,
+          "duration" : 52
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9d386615bb4e53150bd8e0f44b5a1dc2"
+    } ],
+    "uid" : "43d442c8945395d3d370c6fbfd984ccf"
+  }, {
+    "name" : "接口关联业务逻辑",
+    "children" : [ {
+      "name" : "切换客户状态筛选",
+      "children" : [ {
+        "name" : "test_business_",
+        "uid" : "f5af2247c54544d8",
+        "parentUid" : "b38b24ebd003e1e64a67cc24713f79f4",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305605845,
+          "stop" : 1575305606057,
+          "duration" : 212
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "b38b24ebd003e1e64a67cc24713f79f4"
+    }, {
+      "name" : "标记为非客户-总客流",
+      "children" : [ {
+        "name" : "test_business_",
+        "uid" : "e475a25e26619fb9",
+        "parentUid" : "9e1745a0745ce953c54eab8c1c873251",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305616237,
+          "stop" : 1575305619487,
+          "duration" : 3250
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "9e1745a0745ce953c54eab8c1c873251"
+    }, {
+      "name" : "标记为无效客户客户-总客流",
+      "children" : [ {
+        "name" : "test_business_",
+        "uid" : "c7b602432da6af2a",
+        "parentUid" : "15bee7ecff9ad1e9f2c87a9d236f758d",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305671908,
+          "stop" : 1575305672429,
+          "duration" : 521
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "15bee7ecff9ad1e9f2c87a9d236f758d"
+    } ],
+    "uid" : "3b8356f8d545fb62f724568e456ad064"
+  }, {
+    "name" : "会员识别",
+    "children" : [ {
+      "name" : "跟进-再次跟进",
+      "children" : [ {
+        "name" : "test_business_",
+        "uid" : "e4472d08f3da8b1b",
+        "parentUid" : "1b0ffbf0b7f5e13623f9f1862c06706e",
+        "status" : "failed",
+        "time" : {
+          "start" : 1575305619574,
+          "stop" : 1575305645621,
+          "duration" : 26047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1b0ffbf0b7f5e13623f9f1862c06706e"
+    } ],
+    "uid" : "9e5b3d47dd675310f997057205fe9b5e"
+  }, {
+    "name" : "关联客户",
+    "children" : [ {
+      "name" : "迭代一",
+      "children" : [ {
+        "name" : "test_relate_customer",
+        "uid" : "41d34220890915cf",
+        "parentUid" : "1adbd6b9f84b2792eab0c1b302e3cba9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1575305660983,
+          "stop" : 1575305661739,
+          "duration" : 756
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "1adbd6b9f84b2792eab0c1b302e3cba9"
+    } ],
+    "uid" : "06ac272f5d8c628283f50c458818aefe"
+  } ]
+}

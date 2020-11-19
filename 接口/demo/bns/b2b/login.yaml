@@ -1,0 +1,11 @@
+b2bUser:
+  login:
+    desc: 用户登录
+    url: /admin/login
+    port: 3003
+    method: post
+    contentType: json
+    data:
+      userName: username
+      userPasswd: password
+      autoLogin: autoLogin

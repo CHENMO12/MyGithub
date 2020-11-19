@@ -1,0 +1,11 @@
+case_title,first_layer,sencod_layer,third_layer,userEmail,userName,userPhone,roleIdsList,expect_code,expect_msg,clean_data
+成功添加一个IOT员工_技术支持_只填必填,IOT员工管理,添加员工,,,r,r,[3],0,成功,t
+成功添加一个IOT员工_版本管理员_选填字段email传值,IOT员工管理,添加员工,,r,r,r,[2],0,成功,t
+成功添加一个IOT员工_普通用户_选填必填全填,IOT员工管理,添加员工,,r,r,r,[4],0,成功,t
+成功添加一个IOT员工_技术支持经理_选填必填全填,IOT员工管理,添加员工,,r,r,r,[5],0,成功,t
+失败添加一个IOT员工_无权限添加平台管理员,IOT员工管理,添加员工,,,r,r,[1],2047,不能操作平台管理员,
+失败添加一个IOT员工_必填字段name不填,IOT员工管理,添加员工,,,,r,[3],-4,name must not be blank;,
+失败添加一个IOT员工_必填字段phone不填,IOT员工管理,添加员工,,,r,,[3],-4,phone must not be blank;,
+失败添加一个IOT员工_必填字段roleIds不填,IOT员工管理,添加员工,,,r,r,,-3,roleIds must not be blank;,
+失败添加一个IOT员工_选填字段phone位数不合法,IOT员工管理,添加员工,,,r,123456789012,[3],-4,"phone must match ""^1\d{10}",
+失败添加一个IOT员工_选填字段phone存在非数字,IOT员工管理,添加员工,,,r,1234567890a,[3],-4,"phone must match ""^1\d{10}",

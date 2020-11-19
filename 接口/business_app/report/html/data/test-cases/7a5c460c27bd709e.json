@@ -1,0 +1,248 @@
+{
+  "uid" : "7a5c460c27bd709e",
+  "name" : "test_required_field",
+  "fullName" : "_testcase.business_testcase.TestMyCustomer#test_required_field",
+  "historyId" : "ac63b106e98697409c98b6502e217883",
+  "time" : {
+    "start" : 1575305563667,
+    "stop" : 1575305563715,
+    "duration" : 48
+  },
+  "description" : "用例名称：新跟进一个客户，查看我的客户列表更新",
+  "descriptionHtml" : "<p>用例名称：新跟进一个客户，查看我的客户列表更新</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575305553162,
+      "stop" : 1575305553248,
+      "duration" : 86
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575305553249,
+      "stop" : 1575305563666,
+      "duration" : 10417
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：已跟进一个客户",
+      "time" : {
+        "start" : 1575305553249,
+        "stop" : 1575305563666,
+        "duration" : 10417
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ccd4ef9640fcc8f5",
+        "name" : "接口详细信息",
+        "source" : "ccd4ef9640fcc8f5.txt",
+        "type" : "text/plain",
+        "size" : 16
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "用例名称：新跟进一个客户，查看我的客户列表更新",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575305563667,
+        "stop" : 1575305563715,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "步骤2：获取响应信息",
+        "time" : {
+          "start" : 1575305563712,
+          "stop" : 1575305563712,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "hasContent" : false,
+        "stepsCount" : 0
+      }, {
+        "name" : "步骤3：检查点校验",
+        "time" : {
+          "start" : 1575305563713,
+          "stop" : 1575305563715,
+          "duration" : 2
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ {
+          "uid" : "1720ebf7aaf099f9",
+          "name" : "输入客户姓名：CR7T",
+          "source" : "1720ebf7aaf099f9.txt",
+          "type" : "text/plain",
+          "size" : 0
+        }, {
+          "uid" : "e59477f62e1d9908",
+          "name" : "返回客户姓名：['CR7T', '5UDg', '5Xhb']",
+          "source" : "e59477f62e1d9908.txt",
+          "type" : "text/plain",
+          "size" : 0
+        }, {
+          "uid" : "f151d6d41b4c3ba0",
+          "name" : "期望状态码：请求成功",
+          "source" : "f151d6d41b4c3ba0.txt",
+          "type" : "text/plain",
+          "size" : 0
+        }, {
+          "uid" : "60931231fef138bd",
+          "name" : "实际状态码：请求成功",
+          "source" : "60931231fef138bd.txt",
+          "type" : "text/plain",
+          "size" : 0
+        } ],
+        "parameters" : [ ],
+        "attachmentsCount" : 4,
+        "shouldDisplayMessage" : false,
+        "hasContent" : true,
+        "stepsCount" : 0
+      } ],
+      "attachments" : [ {
+        "uid" : "a8a0555645179bbd",
+        "name" : "接口的相关参数信息",
+        "source" : "a8a0555645179bbd.json",
+        "type" : "application/json",
+        "size" : 1310
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 5,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 2
+    } ],
+    "attachments" : [ {
+      "uid" : "d03a1384357c272d",
+      "name" : "log",
+      "source" : "d03a1384357c272d.txt",
+      "type" : "text/plain",
+      "size" : 841
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 6,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575305563716,
+      "stop" : 1575305563716,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575305563715,
+      "stop" : 1575305563715,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "story",
+    "value" : "我的客户"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "feature",
+    "value" : "我的客户"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "business_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestMyCustomer"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "212800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.business_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "b3b7c7dc80a849a1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575278962876,
+        "stop" : 1575278962920,
+        "duration" : 44
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a5c460c27bd709e.json",
+  "parameterValues" : [ ]
+}

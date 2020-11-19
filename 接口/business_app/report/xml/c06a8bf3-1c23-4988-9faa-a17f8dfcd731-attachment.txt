@@ -1,0 +1,3 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e259a781-782f-42d5-95e0-7985f4e82490', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 标记为非客户请求参数:{'token': 'e259a781-782f-42d5-95e0-7985f4e82490', 'snapId': 169292, 'vipType': 0}

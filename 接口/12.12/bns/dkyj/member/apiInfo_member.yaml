@@ -1,0 +1,29 @@
+member:
+  add:
+    desc: 新增会员
+    url: /merchant/merchant/member/add
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      mallareaCode: areaCode
+      membername: name
+      phoneNo: phoneNo
+      membercardNo: cardNo
+      memberlevelId: levelId
+      faceId: faceId
+      imagePath: imagePath
+      sex: sex
+      age: age
+
+  status:
+    desc: 查询注册状态
+    url: /merchant/merchant/employee/get/customerStatus
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      shopAreaCode: areaCode
+      faceId: faceId
+      userType: userType
+

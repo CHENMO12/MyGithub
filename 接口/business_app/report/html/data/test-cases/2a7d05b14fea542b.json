@@ -1,0 +1,272 @@
+{
+  "uid" : "2a7d05b14fea542b",
+  "name" : "test_required_field",
+  "fullName" : "_testcase.business_testcase.TestDataList#test_required_field",
+  "historyId" : "886d440ede8c067d43accc85d666fda8",
+  "time" : {
+    "start" : 1575305541843,
+    "stop" : 1575305542110,
+    "duration" : 267
+  },
+  "description" : "用例名称：验证回复内容,以及筛选Typevip查询",
+  "descriptionHtml" : "<p>用例名称：验证回复内容,以及筛选Typevip查询</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575305531395,
+      "stop" : 1575305531533,
+      "duration" : 138
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575305531533,
+      "stop" : 1575305541843,
+      "duration" : 10310
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：上传一条抓拍数据",
+      "time" : {
+        "start" : 1575305531534,
+        "stop" : 1575305541843,
+        "duration" : 10309
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "用例名称：验证回复内容,以及筛选Typevip查询",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575305541843,
+        "stop" : 1575305542100,
+        "duration" : 257
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "cea357cecf177203",
+        "name" : "接口的相关参数信息",
+        "source" : "cea357cecf177203.json",
+        "type" : "application/json",
+        "size" : 526
+      }, {
+        "uid" : "f0c6178e7ece589a",
+        "name" : "接口的相关参数信息",
+        "source" : "f0c6178e7ece589a.json",
+        "type" : "application/json",
+        "size" : 526
+      }, {
+        "uid" : "bb7f7199048bba0c",
+        "name" : "接口的相关参数信息",
+        "source" : "bb7f7199048bba0c.json",
+        "type" : "application/json",
+        "size" : 67
+      }, {
+        "uid" : "27055ecd6b771ebe",
+        "name" : "接口的相关参数信息",
+        "source" : "27055ecd6b771ebe.json",
+        "type" : "application/json",
+        "size" : 67
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575305542100,
+        "stop" : 1575305542101,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "846f581e1a3b035a",
+        "name" : "接口返回的提示信息：请求成功",
+        "source" : "846f581e1a3b035a.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "9ccf2153075016ef",
+        "name" : "接口返回的提示信息：['000-000-005']",
+        "source" : "9ccf2153075016ef.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575305542101,
+        "stop" : 1575305542110,
+        "duration" : 9
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2d09b611f337b2cd",
+        "name" : "期望状态码：请求成功",
+        "source" : "2d09b611f337b2cd.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "90e4af415642d170",
+        "name" : "实际状态码：请求成功",
+        "source" : "90e4af415642d170.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "83ad6bc88c1d4c8e",
+        "name" : "返回区域编码：['000-000-005']",
+        "source" : "83ad6bc88c1d4c8e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "c3a3d71bc2219d69",
+        "name" : "返回图片地址：['http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/6afecab0-f89e-41db-a362-1d6b9738f4db.jpg']",
+        "source" : "c3a3d71bc2219d69.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "2d913f6e60c1a69f",
+      "name" : "log",
+      "source" : "2d913f6e60c1a69f.txt",
+      "type" : "text/plain",
+      "size" : 830
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 11,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575305542111,
+      "stop" : 1575305542111,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575305542110,
+      "stop" : 1575305542110,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "抓拍信息列表"
+  }, {
+    "name" : "feature",
+    "value" : "抓拍信息列表"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "business_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDataList"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "212800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.business_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "bed79e4babee79bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575278939497,
+        "stop" : 1575278939907,
+        "duration" : 410
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2a7d05b14fea542b.json",
+  "parameterValues" : [ ]
+}

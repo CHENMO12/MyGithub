@@ -1,0 +1,47 @@
+iotUser:
+  add:
+    desc: 添加员工
+    url: /auth/addIotUser
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      userEmail: email
+      userName: name
+      userPhone: phone
+      roleIdsList: roleIds
+
+  edit:
+    desc: 编辑员工
+    url: /auth/updateUserInfo
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      userEmail: email
+      userName: name
+      userPhone: phone
+      roleIdsList: roleIds
+      userId: userId
+
+  delete:
+    desc: 删除员工
+    url: /auth/deleteMember
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      userId: userId
+
+  list:
+    desc: 员工列表
+    url: /auth/userList
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      userName: name
+      pageNo: pageNo
+      pageSize: pageSize
+
+

@@ -1,0 +1,4 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 170017, 'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'phone': '89268004827', 'personName': 'CR7T', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/63d3b774-fb57-4a9a-a0d7-a044c949f27e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 我的客户列表请求参数:{'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'vipType': 3}

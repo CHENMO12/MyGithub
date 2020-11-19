@@ -1,0 +1,4 @@
+case_title,first_layer,sencod_layer,third_layer,pageNo,pageSize,areaCodesList,deviceStatus,deviceCodeOrBar,deviceType,manufacturerType,lensType,hardwareVersion,startDateTime,endDateTime,expect_code,clean_data
+页码不填,IOT设备管理,设备列表,,,10,"[""0001-0001-0001""]",0,1234567890,0,0,6,V500002001,2019-11-13 20:57:35,2019-11-13 18:57:35,-3,
+页大小不填,IOT设备管理,设备列表,,1,,"[""0001-0001-0001""]",0,1234567890,0,0,6,V500002001,2019-11-13 20:57:35,2019-11-13 18:57:35,-3,
+结束时间大于起始时间,IOT设备管理,设备列表,,1,10,"[""0001-0001-0001""]",0,1234567890,0,0,6,V500002001,2019-10-13 20:57:35,2019-09-13 18:57:35,-3,

@@ -1,0 +1,133 @@
+iotDevice:
+  add:
+    desc: 公共服务注册设备
+    url: /device/app/device/create
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceType: deviceType
+      manufacturerType: manufacturerType
+      deviceCode: deviceCode
+      deviceBarCode: deviceBarCode
+      hardwareVersion: hardwareVersion
+      lensType: lensType
+
+  edit:
+    desc: 编辑设备
+    url: /device/app/device/update
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceId: id
+      deviceType: deviceType
+      manufacturerType: manufacturerType
+      deviceCode: deviceCode
+      deviceBarCode: deviceBarCode
+      hardwareVersion: hardwareVersion
+      lensType: lensType
+
+  list:
+    desc: 设备列表
+    url: /device/app/device/create/list
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      pageNo: pageNo
+      pageSize: pageSize
+      areaCodesList: areaCodesList
+      deviceStatus: onlineStatus
+      deviceCodeOrBar: deviceCodeMix
+      deviceType: deviceType
+      manufacturerType: manufacturerType
+      lensType: lensType
+      hardwareVersion: hardwareVersion
+      startDateTime: createTimeStart
+      endDateTime: createTimeEnd
+
+  detail:
+    desc: 设备详情
+    url: /device/app/device/iot/detail
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceId: id
+
+  applyDelete:
+    desc: 申请删除设备
+    url: /device/app/device/approval/deleteDeviceApproval
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceId: id
+      applyDesc: approvalDesc
+      approver: approver
+
+  applyList:
+    desc: 申请单列表
+    url: /device/app/device/approval/list
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      pageNo: pageNo
+      pageSize: pageSize
+      applyStatus: approvalStatus
+      applyType: approvalType
+      approver: approver
+      creater: createBy
+
+  handleApply:
+    desc: 处理下架申请单
+    url: /device/app/device/approval/dealDeleteDevice
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      applyId: id
+      approver: approver
+      approvalStatus: approvalStatus
+      approvalSuggestion: approvalOpinion
+
+  enable:
+    desc: 设备启用
+    url: /device/public/device/enable
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceCodeList: deviceCodeList
+
+  delete:
+    desc: 公共服务设备删除
+    url: /device/public/device/delete
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceCode: deviceCode
+
+  publiclist:
+    desc: 公共服务设备列表
+    url: /device/public/device/list
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceBarCode: deviceBarCode
+      deviceCode: deviceCode
+      deviceType: deviceType
+      deviceTypeName: deviceTypeName
+      startTime: startTime
+      endTime: endTime
+      hardwareVersion: hardwareVersion
+      isEnable: isEnable
+      lensType: lensType
+      manufacturerType: manufacturerType
+      manufacturerTypeName: manufacturerTypeName
+      pageNo: pageNo
+      pageSize: pageSize

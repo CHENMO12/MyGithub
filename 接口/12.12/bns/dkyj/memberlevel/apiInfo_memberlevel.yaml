@@ -1,0 +1,30 @@
+memberlevel:
+  add:
+    desc: 新增会员级别
+    url: /merchant/merchant/member/level/add
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      brandCode: areaCode
+      brandId: brandId
+      levelName: levelName
+
+  list:
+    desc: 会员级别列表
+    url: /merchant/merchant/member/level/list
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      brandId: brandId
+
+  delete:
+    desc: 删除会员级别
+    url: /merchant/merchant/member/level/delete
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      brandId: brandId
+      memberlevelId: levelId

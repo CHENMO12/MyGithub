@@ -1,0 +1,46 @@
+{
+    "data": [
+        {
+            "areaCode": "000-000-005",
+            "doneCount": 1,
+            "hasCount": 2,
+            "imagePath": "http://dj.reconova.com/upload/userPhoto/cc52e414-739a-45e0-97c1-7c770c173c65.jpg",
+            "nickname": "dianzhang07",
+            "phoneNo": "dianzhang07"
+        },
+        {
+            "areaCode": "000-000-005",
+            "doneCount": 0,
+            "hasCount": 0,
+            "imagePath": "http://dj.reconova.com/upload/userPhoto/e604ac86-e21f-4e6e-815d-63f26509ca35.jpg",
+            "nickname": "dianyuan08",
+            "phoneNo": "dianyuan08"
+        },
+        {
+            "areaCode": "000-000-005",
+            "doneCount": 0,
+            "hasCount": 0,
+            "imagePath": "",
+            "nickname": "001",
+            "phoneNo": "dianzhang0710"
+        },
+        {
+            "areaCode": "000-000-005",
+            "doneCount": 0,
+            "hasCount": 0,
+            "imagePath": "",
+            "nickname": "001",
+            "phoneNo": "shop06"
+        },
+        {
+            "areaCode": "000-000-005",
+            "doneCount": 0,
+            "hasCount": 0,
+            "imagePath": "http://dj.reconova.com/upload/userPhoto/500f6e2c-52e8-41fb-a780-1f1421ec3a50.jpg",
+            "nickname": "dhdj",
+            "phoneNo": "15099947428"
+        }
+    ],
+    "message": "请求成功",
+    "success": 1
+}

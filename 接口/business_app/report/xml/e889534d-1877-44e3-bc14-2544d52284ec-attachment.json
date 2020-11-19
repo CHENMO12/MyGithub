@@ -1,0 +1,45 @@
+{
+    "data": [
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/f38cb7ef-4ea1-4dce-8bba-eeb5e2ba72b1.jpg",
+            "imageTime": "2019-12-02 17:18:30",
+            "isVip": 1,
+            "personCode": 917609,
+            "personName": "JVdi",
+            "phone": "96741637373",
+            "snapId": 169262,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/7c3a3fcb-2704-481c-a881-9f24aebf157f.jpg",
+            "imageTime": "2019-12-02 17:12:16",
+            "isVip": 1,
+            "personCode": 917588,
+            "personName": "ESWK",
+            "phone": "38477738426",
+            "snapId": 169234,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/be0c092f-b5ae-4bef-8c3f-9fc3b2ae058e.jpg",
+            "imageTime": "2019-12-02 10:57:36",
+            "isVip": 1,
+            "personCode": 917299,
+            "personName": "库里",
+            "phone": "12332145654",
+            "snapId": 168067,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        }
+    ],
+    "message": "请求成功",
+    "success": 1
+}

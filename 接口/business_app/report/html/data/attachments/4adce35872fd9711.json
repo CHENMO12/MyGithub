@@ -1,0 +1,32 @@
+{
+    "data": [
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/418fff5a-2d94-4fbf-b010-16fa504d4661.jpg",
+            "imageTime": "2019-12-03 00:53:07",
+            "isVip": 1,
+            "personCode": 918066,
+            "personName": "5Zz9",
+            "phone": "27743580492",
+            "snapId": 170020,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/d6184142-dffb-4587-9bb3-dc4a39e3e259.jpg",
+            "imageTime": "2019-12-03 00:52:22",
+            "isVip": 1,
+            "personCode": 918063,
+            "personName": "5UDg",
+            "phone": "87917863089",
+            "snapId": 170016,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        }
+    ],
+    "message": "请求成功",
+    "success": 1
+}

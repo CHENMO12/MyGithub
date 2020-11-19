@@ -1,0 +1,82 @@
+{
+  "uid" : "2f25f7bdd7f36cd2",
+  "name" : "test_case_01",
+  "fullName" : "demo_allure#test_case_01",
+  "historyId" : "b048f15ae5e447e3995af596496be131",
+  "time" : {
+    "start" : 1604213520088,
+    "stop" : 1604213520088,
+    "duration" : 0
+  },
+  "description" : "用例详细描述",
+  "descriptionHtml" : "<p>用例详细描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例详细描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤说明",
+      "time" : {
+        "start" : 1604213520088,
+        "stop" : 1604213520088,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "story",
+    "value" : "简单校验"
+  }, {
+    "name" : "suite",
+    "value" : "demo_allure"
+  }, {
+    "name" : "host",
+    "value" : "WIN-0HDPTRO9OLO"
+  }, {
+    "name" : "thread",
+    "value" : "7140-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2f25f7bdd7f36cd2.json",
+  "parameterValues" : [ ]
+}

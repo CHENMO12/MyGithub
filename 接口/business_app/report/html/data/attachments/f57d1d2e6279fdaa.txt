@@ -1,0 +1,4 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '481d93af-9f8e-4950-862c-f1f3519f746d', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 修改客户信息请求参数:{'token': '481d93af-9f8e-4950-862c-f1f3519f746d', 'personCode': 917617, 'phone': '65497496707', 'personName': '3uiW'}
+INFO     root:mylog.py:71 我的客户列表请求参数:{'token': '481d93af-9f8e-4950-862c-f1f3519f746d', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'vipType': 3}

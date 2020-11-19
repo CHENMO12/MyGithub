@@ -1,0 +1,123 @@
+{
+    "data": [
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/2362b268-3b97-4b56-80b8-a2c6c7a0fd8d.jpg",
+            "imageTime": "2019-12-03 00:53:39",
+            "isVip": 1,
+            "personCode": 918067,
+            "personName": "Tidc",
+            "phone": "94053584674",
+            "snapId": 170023,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/d448c1c1-3b88-46db-8040-dcae3b12e7c8.jpg",
+            "imageTime": "2019-12-03 00:53:26",
+            "isVip": 0,
+            "personCode": 0,
+            "personName": "",
+            "phone": "",
+            "snapId": 170022,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 0
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/aba80ce1-556d-422a-ad9f-525ecfcc88c1.jpg",
+            "imageTime": "2019-12-03 00:53:17",
+            "isVip": 1,
+            "personCode": 798757,
+            "personName": "ZfNY",
+            "phone": "31957298880",
+            "snapId": 170021,
+            "star": 0,
+            "traceType": 0,
+            "vipType": -1
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/418fff5a-2d94-4fbf-b010-16fa504d4661.jpg",
+            "imageTime": "2019-12-03 00:53:07",
+            "isVip": 1,
+            "personCode": 918066,
+            "personName": "5Zz9",
+            "phone": "27743580492",
+            "snapId": 170020,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/fc170e44-1fd9-405d-a512-807ec16b3768.jpg",
+            "imageTime": "2019-12-03 00:52:56",
+            "isVip": 1,
+            "personCode": 918065,
+            "personName": "DReH",
+            "phone": "22492698048",
+            "snapId": 170019,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/49d5d849-c9f7-42b2-a2a2-033ab9b6917c.jpg",
+            "imageTime": "2019-12-03 00:52:46",
+            "isVip": 0,
+            "personCode": 0,
+            "personName": "",
+            "phone": "",
+            "snapId": 170018,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 0
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/63d3b774-fb57-4a9a-a0d7-a044c949f27e.jpg",
+            "imageTime": "2019-12-03 00:52:33",
+            "isVip": 1,
+            "personCode": 918064,
+            "personName": "N9QB",
+            "phone": "14510506683",
+            "snapId": 170017,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 2
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/d6184142-dffb-4587-9bb3-dc4a39e3e259.jpg",
+            "imageTime": "2019-12-03 00:52:22",
+            "isVip": 1,
+            "personCode": 918063,
+            "personName": "5UDg",
+            "phone": "87917863089",
+            "snapId": 170016,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/6afecab0-f89e-41db-a362-1d6b9738f4db.jpg",
+            "imageTime": "2019-12-03 00:52:11",
+            "isVip": 0,
+            "personCode": 0,
+            "personName": "",
+            "phone": "",
+            "snapId": 170015,
+            "star": 0,
+            "traceType": 0,
+            "vipType": -1
+        }
+    ],
+    "message": "请求成功",
+    "success": 1
+}

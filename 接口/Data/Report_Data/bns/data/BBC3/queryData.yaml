@@ -1,0 +1,8 @@
+queryData:
+  data:
+    desc: 订单查询
+    url: /Report_Data/Report_Data/admin/order/read/queryData
+    method: post
+    contentType: json
+    data:
+      id: id

@@ -1,0 +1,66 @@
+2019-12-03 00:52:10,827(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:10,832(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'areaCode': '000-000-005'}
+2019-12-03 00:52:10,891(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '553a001f-b398-4e7d-a669-f4c31ea74f00'}
+2019-12-03 00:52:11,532(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:21,842(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '10d66e07-b457-446f-9caa-dcc1b256f4bc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:21,906(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '10d66e07-b457-446f-9caa-dcc1b256f4bc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 1}
+2019-12-03 00:52:21,949(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '10d66e07-b457-446f-9caa-dcc1b256f4bc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 2}
+2019-12-03 00:52:22,020(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '10d66e07-b457-446f-9caa-dcc1b256f4bc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 3}
+2019-12-03 00:52:22,242(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:32,303(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'a1739e7a-ca7d-4e54-8126-00cb5aa85781', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:32,350(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170016, 'token': 'a1739e7a-ca7d-4e54-8126-00cb5aa85781', 'areaCode': '000-000-005', 'phone': '96699281593', 'personName': '5Xhb', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/d6184142-dffb-4587-9bb3-dc4a39e3e259.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:52:32,754(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:32,756(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'ae10d299-a402-42c0-a127-87be6fbbacec', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:32,792(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170016, 'token': 'ae10d299-a402-42c0-a127-87be6fbbacec', 'areaCode': '000-000-005', 'phone': '87917863089', 'personName': '5UDg', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/d6184142-dffb-4587-9bb3-dc4a39e3e259.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:52:33,080(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'ae10d299-a402-42c0-a127-87be6fbbacec', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:33,118(pid:212800,tid:212200)--INFO: 添加跟进信息请求参数:{'snapId': 170016, 'token': 'ae10d299-a402-42c0-a127-87be6fbbacec', 'areaCode': '000-000-005', 'personName': '5UDg', 'isTrade': 1, 'brands': ['黄金', '白金', '钻石'], 'intention': '高', 'remark': '追加记录...', 'used': ['送礼', '收藏', '自用'], 'personCode': 918063, 'phone': '87917863089'}
+2019-12-03 00:52:33,246(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:43,305(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:43,347(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170017, 'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'phone': '89268004827', 'personName': 'CR7T', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/63d3b774-fb57-4a9a-a0d7-a044c949f27e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:52:43,666(pid:212800,tid:212200)--INFO: 我的客户列表请求参数:{'token': '53be5d55-662d-4868-8ee9-00c4e3337225', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'vipType': 3}
+2019-12-03 00:52:43,790(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:43,792(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'a70245a6-5186-4701-8501-3c993e9610e7', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:43,829(pid:212800,tid:212200)--INFO: 修改客户信息请求参数:{'token': 'a70245a6-5186-4701-8501-3c993e9610e7', 'personCode': 918064, 'phone': '14510506683', 'personName': 'N9QB'}
+2019-12-03 00:52:45,874(pid:212800,tid:212200)--INFO: 我的客户列表请求参数:{'token': 'a70245a6-5186-4701-8501-3c993e9610e7', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'vipType': 3}
+2019-12-03 00:52:46,028(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:46,029(pid:212800,tid:212200)--INFO: 抓拍列表统计请求参数:{'token': 'b751a8eb-46f7-4045-b565-ffc0ad44e022', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:46,166(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:56,227(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '22fc0fee-7ba4-4e0b-9c18-20e0390574ff', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:52:56,270(pid:212800,tid:212200)--INFO: 标记为非客户请求参数:{'token': '22fc0fee-7ba4-4e0b-9c18-20e0390574ff', 'snapId': 170018, 'vipType': 0}
+2019-12-03 00:52:56,402(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:52:56,404(pid:212800,tid:212200)--INFO: 店员业绩请求参数:{'areaCode': '000-000-005', 'token': '8c64baad-9765-47e8-8b26-499fd33fa7c5', 'endDate': '2019-12-03', 'startDate': '2019-12-03'}
+2019-12-03 00:52:56,819(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:53:06,928(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:06,988(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170019, 'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'phone': '22492698048', 'personName': 'DReH', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/fc170e44-1fd9-405d-a512-807ec16b3768.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:53:17,398(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:17,443(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170020, 'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'phone': '27743580492', 'personName': '5Zz9', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/418fff5a-2d94-4fbf-b010-16fa504d4661.jpg', 'isTrade': 1, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:53:25,845(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:25,890(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 1}
+2019-12-03 00:53:25,956(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 2}
+2019-12-03 00:53:26,000(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '3a06de10-f4a9-47bf-9a35-98e8493d44fc', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 3}
+2019-12-03 00:53:26,151(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:53:36,237(pid:212800,tid:212200)--INFO: 抓拍列表统计请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:36,292(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:36,339(pid:212800,tid:212200)--INFO: 标记为非客户请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'snapId': 170022, 'vipType': 0}
+2019-12-03 00:53:39,385(pid:212800,tid:212200)--INFO: 抓拍列表统计请求参数:{'token': 'ddbad9d3-6968-4705-ba7f-d5c3a73cf72c', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:39,573(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:53:44,714(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:53:44,756(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170023, 'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'phone': '94053584674', 'personName': 'Tidc', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/2362b268-3b97-4b56-80b8-a2c6c7a0fd8d.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:53:50,046(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:00,121(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:05,162(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:05,221(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170025, 'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'phone': '85972851835', 'personName': 'aDnw', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/3909254e-59e2-4735-b839-cf8bfd7bad4f.jpg', 'isTrade': 1, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+2019-12-03 00:54:05,552(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '6ed4949e-37ae-4acd-bfda-acffac9c08cd', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:05,779(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:54:20,982(pid:212800,tid:212200)--INFO: 抓拍列表统计请求参数:{'token': '8a272ed6-8d81-4bc7-93ec-447e190cf0d6', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:21,027(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': '8a272ed6-8d81-4bc7-93ec-447e190cf0d6', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'dataType': 1}
+2019-12-03 00:54:21,069(pid:212800,tid:212200)--INFO: 关联请求参数:{'token': '8a272ed6-8d81-4bc7-93ec-447e190cf0d6', 'snapId': 170027, 'areaCode': '000-000-005', 'personName': 'XbcF', 'isTrade': 1, 'personCode': 0, 'phone': '53841159493', 'imageHeader': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/aef09151-b0d5-472e-982e-9fc7b958edd4.jpg', 'imagePathList': ['http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/2f208ea5-c0b3-4382-a257-b0d1535f226e.jpg'], 'snapIdList': [170026]}
+2019-12-03 00:54:21,634(pid:212800,tid:212200)--INFO: 抓拍列表统计请求参数:{'token': '8a272ed6-8d81-4bc7-93ec-447e190cf0d6', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:21,675(pid:212800,tid:212200)--INFO: 我的客户列表请求参数:{'token': '8a272ed6-8d81-4bc7-93ec-447e190cf0d6', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03', 'vipType': 3}
+2019-12-03 00:54:21,824(pid:212800,tid:212200)--INFO: 登入成功...
+2019-12-03 00:54:31,907(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:31,959(pid:212800,tid:212200)--INFO: 标记为非客户请求参数:{'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb', 'snapId': 170028, 'vipType': 1}
+2019-12-03 00:54:32,001(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:32,043(pid:212800,tid:212200)--INFO: 恢复为初次到访客户请求参数:{'snapId': 170028, 'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb'}
+2019-12-03 00:54:32,093(pid:212800,tid:212200)--INFO: 抓拍列表数据请求参数:{'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb', 'areaCode': '000-000-005', 'startDate': '2019-12-03', 'endDate': '2019-12-03'}
+2019-12-03 00:54:32,134(pid:212800,tid:212200)--INFO: 跟进信息请求参数:{'snapId': 170028, 'token': 'b465f62c-ed34-41f7-bc12-5df3bf26e3bb', 'areaCode': '000-000-005', 'phone': '53973511863', 'personName': 'dvSE', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-03/0701-1/71896134-f926-44f0-b284-d7c4ff1bc62a.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}

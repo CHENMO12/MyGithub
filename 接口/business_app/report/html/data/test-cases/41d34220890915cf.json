@@ -1,0 +1,269 @@
+{
+  "uid" : "41d34220890915cf",
+  "name" : "test_relate_customer",
+  "fullName" : "_testcase.advanced_testcase.TestRelateCustomer#test_relate_customer",
+  "historyId" : "dee53905aff121de54c380c8168f8e0a",
+  "time" : {
+    "start" : 1575305660983,
+    "stop" : 1575305661739,
+    "duration" : 756
+  },
+  "description" : "用例名称：关联客户，成单数+1，我的客户+1",
+  "descriptionHtml" : "<p>用例名称：关联客户，成单数+1，我的客户+1</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575305645697,
+      "stop" : 1575305645780,
+      "duration" : 83
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575305645780,
+      "stop" : 1575305660983,
+      "duration" : 15203
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：上传两条抓拍数据",
+      "time" : {
+        "start" : 1575305645780,
+        "stop" : 1575305660983,
+        "duration" : 15203
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  } ],
+  "testStage" : {
+    "description" : "用例名称：关联客户，成单数+1，我的客户+1",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575305661632,
+        "stop" : 1575305661632,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8e4cc49423eca128",
+        "name" : "接口的相关参数信息",
+        "source" : "8e4cc49423eca128.json",
+        "type" : "application/json",
+        "size" : 71
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575305661632,
+        "stop" : 1575305661633,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575305661633,
+        "stop" : 1575305661633,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8dc6654d253be377",
+        "name" : "期望状态码：添加成功",
+        "source" : "8dc6654d253be377.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "f403d4573aee9c1d",
+        "name" : "实际返回参数：添加成功",
+        "source" : "f403d4573aee9c1d.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤4：后置条件：成单数+1，我的客户+1",
+      "time" : {
+        "start" : 1575305661634,
+        "stop" : 1575305661739,
+        "duration" : 105
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "685f25b5d7f4380e",
+        "name" : "期望返回成单数：3",
+        "source" : "685f25b5d7f4380e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "182f2039036405a5",
+        "name" : "实际返回成单数：4",
+        "source" : "182f2039036405a5.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "312557895c0f996e",
+        "name" : "期望返回客户姓名：XbcF",
+        "source" : "312557895c0f996e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "ff8ddc8d9874616d",
+        "name" : "实际返回客户姓名：['XbcF', 'aDnw', 'Tidc', '5Zz9', 'DReH', 'N9QB', '5UDg', '5Xhb']",
+        "source" : "ff8ddc8d9874616d.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "135c5dd8545afa5b",
+      "name" : "log",
+      "source" : "135c5dd8545afa5b.txt",
+      "type" : "text/plain",
+      "size" : 1303
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 4
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575305661740,
+      "stop" : 1575305661740,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575305661739,
+      "stop" : 1575305661739,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "关联客户"
+  }, {
+    "name" : "story",
+    "value" : "迭代一"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "advanced_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestRelateCustomer"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "212800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.advanced_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "1c84d7dc3a6843ea",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575279063154,
+        "stop" : 1575279064057,
+        "duration" : 903
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "41d34220890915cf.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,6 @@
+case_title,first_layer,sencod_layer,third_layer,parentAreaCode,brandName,ageGroups,expect_code,expect_msg,clean_data
+不填写节点名称,节点管理,添加品牌节点,,0001,,"[[0,90]]",-4,name 不可为空;,
+不填写上级区域编码,节点管理,添加品牌节点,,,r,"[[0,90]]",-4,areaCode must not be blank;,
+不填写最小年龄,节点管理,添加品牌节点,,0001,r,"[[None,90]]",5027,年龄分组不能为空,
+不填写最大年龄,节点管理,添加品牌节点,,0001,r,"[[0,None]]",5027,年龄分组不能为空,
+不填写年龄分组,节点管理,添加品牌节点,,0001,r,,5027,年龄分组不能为空,

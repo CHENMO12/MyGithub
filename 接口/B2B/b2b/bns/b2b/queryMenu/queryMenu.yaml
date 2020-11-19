@@ -1,0 +1,10 @@
+queryMenu:
+  menu:
+    desc: 菜单查询
+    url: /admin/sso/queryMenu
+    port: 3003
+    method: post
+    contentType: json
+    data:
+      id: id
+

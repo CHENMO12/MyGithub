@@ -1,0 +1,8 @@
+case_title,first_layer,sencod_layer,third_layer,userName,userPhone,roleId,areaCodesList,expect_code,expect_msg,clean_data
+成功添加运营人员_技术支持人员,运营人员管理,添加运营人员,,r,r,2,"[""0001-0000-0000""]",0,,t
+成功添加运营人员_数据校正人员,运营人员管理,添加运营人员,,r,r,3,"[""0001-0000-0000""]",0,,t
+成功添加运营人员_安装人员,运营人员管理,添加运营人员,,r,r,4,"[""0001-0000-0000""]",0,,t
+不填写用户名字,运营人员管理,添加运营人员,,,r,3,"[""0001-0000-0000""]",-4,name must not be blank;,
+不填写用户手机号,运营人员管理,添加运营人员,,r,,3,"[""0001-0000-0000""]",-4,phone must not be blank;,
+不填写角色id,运营人员管理,添加运营人员,,r,r,,"[""0001-0000-0000""]",-4,userRoles[0].roleId must not be null;,
+不填写区域编码,运营人员管理,添加运营人员,,r,r,3,[],-4,userRoles[0].areaCodes 最少选择一个区域;,

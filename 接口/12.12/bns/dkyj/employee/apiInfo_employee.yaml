@@ -1,0 +1,16 @@
+employee:
+  add:
+    desc: 新增店员
+    url: /merchant/merchant/employee/add
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      mallareaCode: areaCode
+      employeename: name
+      phoneNo: phoneNo
+      faceId: faceId
+      imagePath: imagePath
+      sex: sex
+      age: age
+      remark: remark

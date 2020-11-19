@@ -1,0 +1,44 @@
+publicDevice:
+  add:
+    desc: 公共服务注册设备
+    url: /device/app/device/create
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceType: deviceType
+      manufacturerType: manufacturerType
+      deviceCode: deviceCode
+      deviceBarCode: deviceBarCode
+      hardwareVersion: hardwareVersion
+      lensType: lensType
+
+  delete:
+    desc: 公共服务设备删除
+    url: /device/public/device/delete
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceCode: deviceCode
+
+  list:
+    desc: 公共服务设备列表
+    url: /device/public/device/list
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      deviceBarCode: deviceBarCode
+      deviceCode: deviceCode
+      deviceType: deviceType
+      deviceTypeName: deviceTypeName
+      startTime: startTime
+      endTime: endTime
+      hardwareVersion: hardwareVersion
+      isEnable: isEnable
+      lensType: lensType
+      manufacturerType: manufacturerType
+      manufacturerTypeName: manufacturerTypeName
+      pageNo: pageNo
+      pageSize: pageSize

@@ -1,0 +1,123 @@
+{
+    "data": [
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/48644650-a29d-49e3-875f-f27bcb545f2d.jpg",
+            "imageTime": "2019-12-02 17:18:01",
+            "isVip": 1,
+            "personCode": 917608,
+            "personName": "NMzm",
+            "phone": "06241353906",
+            "snapId": 169251,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/75bde9d1-6b26-4dc8-920f-523927b1e007.jpg",
+            "imageTime": "2019-12-02 17:18:00",
+            "isVip": 1,
+            "personCode": 917608,
+            "personName": "NMzm",
+            "phone": "06241353906",
+            "snapId": 169250,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/7f6ebf25-dace-4afd-b7b5-6078acab80c3.jpg",
+            "imageTime": "2019-12-02 17:11:39",
+            "isVip": 1,
+            "personCode": 917587,
+            "personName": "gYRO",
+            "phone": "96202699159",
+            "snapId": 169232,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/3280e87a-aa1e-494c-befe-a972da2e4ed5.jpg",
+            "imageTime": "2019-12-02 17:11:38",
+            "isVip": 1,
+            "personCode": 917587,
+            "personName": "gYRO",
+            "phone": "96202699159",
+            "snapId": 169233,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/57c9d434-301a-41ba-97f7-a517e5ae4c08.jpg",
+            "imageTime": "2019-12-02 17:11:20",
+            "isVip": 1,
+            "personCode": 917583,
+            "personName": "sqAJ",
+            "phone": "92862049823",
+            "snapId": 169228,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/d7b26564-c1ac-44c8-afba-ccb8b2783a37.jpg",
+            "imageTime": "2019-12-02 17:08:35",
+            "isVip": 1,
+            "personCode": 917580,
+            "personName": "3UYE",
+            "phone": "45365569065",
+            "snapId": 169220,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/9d286ef9-52f9-4270-888c-20f6ac1ff6b0.jpg",
+            "imageTime": "2019-12-02 10:51:59",
+            "isVip": 1,
+            "personCode": 917300,
+            "personName": "科比",
+            "phone": "12332123212",
+            "snapId": 168052,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/57d3bf70-5f77-4eb8-81b8-0c1973917b65.jpg",
+            "imageTime": "2019-12-02 10:49:05",
+            "isVip": 1,
+            "personCode": 917291,
+            "personName": "科比",
+            "phone": "12365478904",
+            "snapId": 168029,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        },
+        {
+            "areaCode": "000-000-005",
+            "imagePath": "http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/85f4a16f-c42a-48d5-b905-f9c0923ff7e2.jpg",
+            "imageTime": "2019-12-02 10:48:48",
+            "isVip": 1,
+            "personCode": 917298,
+            "personName": "卡哇伊",
+            "phone": "12332145415",
+            "snapId": 168028,
+            "star": 0,
+            "traceType": 1,
+            "vipType": 3
+        }
+    ],
+    "message": "请求成功",
+    "success": 1
+}

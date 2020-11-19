@@ -1,0 +1,16 @@
+
+简要步骤描述:
+    1. 项目依赖包安装
+        1.1 执行: $PROJECT_ROOT/install.bat
+    2. 编写业务api
+        2.1 编写接口信息: $PROJECT_ROOT/bns/平台/模块/*.yaml
+        2.2 执行辅助工具: $PROJECT_ROOT/bns/cli.py
+        2.3 拷贝辅助工具生成的代码到: $PROJECT_ROOT/bns/平台/模块key/__init__.py
+        2.4 修改生成的代码: 两处TODO(1.完成函数注释, 2.url格式的最终确认)
+    3. 编写字段级接口用例
+        3.1 执行辅助工具: $PROJECT_ROOT/case/cli.py
+        3.2 修改自动生成的用例文件(导包问题): $PROJECT_ROOT/case/field_rank/模块key/函数key/用例文件
+        3.3 在自动生成的csv文件中准备测试数据: $PROJECT_ROOT/case/field_rank/模块key/函数key/csv文件
+    4. 执行测试用例
+        4.1 执行入口: $PROJECT_ROOT/main.py
+        4.2 查看用例报告: $PROJECT_ROOT/output/report/html/index.html

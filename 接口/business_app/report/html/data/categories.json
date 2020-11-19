@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "AssertionError: assert '试试' == 'Tidc'\n  - 试试\n  + Tidc",
+      "children" : [ {
+        "name" : "test_business_",
+        "uid" : "e4472d08f3da8b1b",
+        "parentUid" : "be35a285339dda34245fcb472db7b835",
+        "status" : "failed",
+        "time" : {
+          "start" : 1575305619574,
+          "stop" : 1575305645621,
+          "duration" : 26047
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "be35a285339dda34245fcb472db7b835"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

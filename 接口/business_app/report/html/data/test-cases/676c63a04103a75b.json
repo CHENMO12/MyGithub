@@ -1,0 +1,205 @@
+{
+  "uid" : "676c63a04103a75b",
+  "name" : "test_required_field",
+  "fullName" : "_testcase.business_testcase.TestChangeCustomerInfo#test_required_field",
+  "historyId" : "4a2f3373a55cd4a3404e6ee4542b4335",
+  "time" : {
+    "start" : 1575278964315,
+    "stop" : 1575278966581,
+    "duration" : 2266
+  },
+  "description" : "用例名称：修改我的客户名称电话，查看更新后结果",
+  "descriptionHtml" : "<p>用例名称：修改我的客户名称电话，查看更新后结果</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575278962924,
+      "stop" : 1575278964315,
+      "duration" : 1391
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "用例名称：修改我的客户名称电话，查看更新后结果",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575278964316,
+        "stop" : 1575278966578,
+        "duration" : 2262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9c3a88968d9f68d7",
+        "name" : "接口的相关参数信息",
+        "source" : "9c3a88968d9f68d7.json",
+        "type" : "application/json",
+        "size" : 69
+      }, {
+        "uid" : "65f56aea9d3dc46a",
+        "name" : "接口的相关参数信息",
+        "source" : "65f56aea9d3dc46a.json",
+        "type" : "application/json",
+        "size" : 8912
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575278966578,
+        "stop" : 1575278966578,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575278966578,
+        "stop" : 1575278966581,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "689474d10be014e5",
+        "name" : "期望状态码：请求成功",
+        "source" : "689474d10be014e5.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "7f0329d5fd0bf817",
+        "name" : "实际状态码：请求成功",
+        "source" : "7f0329d5fd0bf817.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "565cfc456da7e012",
+        "name" : "期望返回客户姓名：3uiW",
+        "source" : "565cfc456da7e012.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "8d0bcd992c8cc7fe",
+        "name" : "实际返回客户姓名：['3uiW', '1mhg', 'o8bq', 'JVdi', 'NMzm', 'eLI7', 'RIgL', 'NLsT', 'w5Nd', 'hTq6', 'OwYn', 'S76J', 'ESWK', 'gYRO', 'FvOm', 'd6ok', 'sqAJ', 'u6EJ', 'QLaW', '3UYE', '0MKl']",
+        "source" : "8d0bcd992c8cc7fe.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "39d1b56b1023c464",
+        "name" : "期望返回客户电话：65497496707",
+        "source" : "39d1b56b1023c464.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "e048dc932efb41a6",
+        "name" : "实际返回客户电话：['65497496707', '43725113681', '14384885135', '96741637373', '06241353906', '39713337286', '25569576470', '91304867851', '73613055834', '97243680585', '12023660470', '42461831405', '38477738426', '96202699159', '07730318609', '67585422023', '92862049823', '13396556880', '01518544192', '45365569065', '36521400006']",
+        "source" : "e048dc932efb41a6.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 6,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "f57d1d2e6279fdaa",
+      "name" : "log",
+      "source" : "f57d1d2e6279fdaa.txt",
+      "type" : "text/plain",
+      "size" : 602
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 9,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575278966582,
+      "stop" : 1575278966582,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "修改我的客户"
+  }, {
+    "name" : "story",
+    "value" : "修改我的客户"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "business_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestChangeCustomerInfo"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "199856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.business_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "676c63a04103a75b.json",
+  "parameterValues" : [ ]
+}

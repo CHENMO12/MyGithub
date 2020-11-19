@@ -1,0 +1,8 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'phone': '04598247786', 'personName': 'm4v6', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'phone': '33959962327', 'personName': 'DdwG', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 1, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '27a364e6-b497-47e2-a2cc-907854e06061', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}

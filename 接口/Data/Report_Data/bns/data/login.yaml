@@ -1,0 +1,13 @@
+dataUser:
+  login:
+    desc: 获取cookie
+    url: /sso/sso/oauth/token
+    method: post
+    contentType: json
+    data:
+      userName: username
+      userPasswd: password
+      user_type: user_type
+      grant_type: grant_type
+
+

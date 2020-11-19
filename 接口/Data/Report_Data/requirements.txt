@@ -1,0 +1,7 @@
+# Requirements needed when generating releases
+pytest >= 5.2.0
+allure-pytest >= 2.8.5
+requests >= 2.22.0
+requests_toolbelt >= 0.9.1
+pymysql >= 0.9.3
+pyyaml >= 5.1.2

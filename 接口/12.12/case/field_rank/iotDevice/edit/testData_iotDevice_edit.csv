@@ -1,0 +1,9 @@
+case_title,first_layer,sencod_layer,third_layer,deviceid,deviceType,manufacturerType,deviceCode,deviceBarCode,hardwareVersion,lensType,expect_code,clean_data
+不填写设备id,IOT设备管理,编辑设备,,,0,0,r,r,r,r,-4,
+填写不存在的设备id,IOT设备管理,编辑设备,,999999,0,0,r,r,r,r,-4,
+不填写设备类型,IOT设备管理,编辑设备,,1,,0,r,r,r,r,-4,
+不填写厂商类型,IOT设备管理,编辑设备,,1,0,,r,r,r,r,-4,
+不填写设备编码,IOT设备管理,编辑设备,,1,0,0,,r,r,r,-4,
+不填写设备条码,IOT设备管理,编辑设备,,1,0,0,r,,r,r,-4,
+不填写硬件版本,IOT设备管理,编辑设备,,1,0,0,r,r,,r,-4,
+不填写镜头类型,IOT设备管理,编辑设备,,1,0,0,r,r,r,,-4,

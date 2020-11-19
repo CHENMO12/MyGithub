@@ -1,0 +1,286 @@
+{
+  "uid" : "8750adb57a40a0dd",
+  "name" : "test_business_",
+  "fullName" : "_testcase.advanced_testcase.TestAddTraceAgain#test_business_",
+  "historyId" : "7c2846f42f51ee99b61e505df1b60645",
+  "time" : {
+    "start" : 1575279021106,
+    "stop" : 1575279047849,
+    "duration" : 26743
+  },
+  "description" : "用例名称：初次到访-跟进-再次跟进",
+  "descriptionHtml" : "<p>用例名称：初次到访-跟进-再次跟进</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575279021106,
+      "stop" : 1575279021106,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：上传一个客流上传两次...",
+      "time" : {
+        "start" : 1575279021106,
+        "stop" : 1575279021106,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575279021024,
+      "stop" : 1575279021106,
+      "duration" : 82
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "用例名称：初次到访-跟进-再次跟进",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575279047826,
+        "stop" : 1575279047839,
+        "duration" : 13
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aadc954fb2090f2a",
+        "name" : "接口的相关参数信息",
+        "source" : "aadc954fb2090f2a.json",
+        "type" : "application/json",
+        "size" : 104405
+      }, {
+        "uid" : "b3f5ad3750a7d058",
+        "name" : "接口的相关参数信息",
+        "source" : "b3f5ad3750a7d058.json",
+        "type" : "application/json",
+        "size" : 104405
+      }, {
+        "uid" : "f7e872b03dda2303",
+        "name" : "接口的相关参数信息",
+        "source" : "f7e872b03dda2303.json",
+        "type" : "application/json",
+        "size" : 104405
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575279047839,
+        "stop" : 1575279047846,
+        "duration" : 7
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2857eca5c7b124ee",
+        "name" : "接口返回的提示信息：请求成功",
+        "source" : "2857eca5c7b124ee.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "3bcc7a8779645a04",
+        "name" : "接口返回的提示信息：请求成功",
+        "source" : "3bcc7a8779645a04.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "ee6bba8ef3fbb1fb",
+        "name" : "接口返回跟进后的客户姓名：m4v6",
+        "source" : "ee6bba8ef3fbb1fb.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "25d41eae2e501850",
+        "name" : "接口返回下次来访识别的客户姓名：m4v6",
+        "source" : "25d41eae2e501850.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575279047846,
+        "stop" : 1575279047849,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9b02efa21898e7fa",
+        "name" : "期望状态码：请求成功",
+        "source" : "9b02efa21898e7fa.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "9a31f1dcaab95376",
+        "name" : "实际返回参数：2",
+        "source" : "9a31f1dcaab95376.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "c13dcde884cc0fb7",
+        "name" : "期望返回参数：2",
+        "source" : "c13dcde884cc0fb7.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "8562802349981583",
+        "name" : "实际返回参数：3",
+        "source" : "8562802349981583.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "5fcfafb66bb428f9",
+        "name" : "期望返回参数：3",
+        "source" : "5fcfafb66bb428f9.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "2f78b9d8f10cd249",
+        "name" : "第一次跟进后的客户名：m4v6",
+        "source" : "2f78b9d8f10cd249.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "90884bd90be17590",
+        "name" : "客户第二次来会员识别的客户名：m4v6",
+        "source" : "90884bd90be17590.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "6abe297367e359dc",
+      "name" : "log",
+      "source" : "6abe297367e359dc.txt",
+      "type" : "text/plain",
+      "size" : 1815
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575279047850,
+      "stop" : 1575279047850,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575279047851,
+      "stop" : 1575279047851,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "会员识别"
+  }, {
+    "name" : "story",
+    "value" : "跟进-再次跟进"
+  }, {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "advanced_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddTraceAgain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "199856-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.advanced_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8750adb57a40a0dd.json",
+  "parameterValues" : [ ]
+}

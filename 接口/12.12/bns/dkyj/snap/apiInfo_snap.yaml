@@ -1,0 +1,51 @@
+snap:
+  list:
+    desc: 抓拍列表查询
+    url: /snapdata/snap/list
+    port: 443
+    method: post
+    contentType: json
+    data:
+      areaCodesList: areaCodes
+      deviceCode: deviceCode
+      deviceType: deviceType
+      startAgeInit: startAgeInit
+      endAgeInit: endAgeInit
+      startDateTime: startTime
+      endDateTime: endTime
+      faceId: faceId
+      sexInit: sexInit
+      snapType: snapType
+      userStatus: userStatus
+      userType: userType
+      pageNo: pageNo
+      pageSize: pageSize
+
+  visit_list:
+    desc: 访客列表查询
+    url: /snapdata/trip/list
+    port:
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      deviceCodeMix: deviceCodeMix
+      deviceType: deviceType
+      startAge: startAge
+      endAge: endAge
+      startDateTime: startTime
+      endDateTime: endTime
+      memberFaceId: memberFaceId
+      faceId: faceId
+      sex: sex
+      snapType: snapType
+      userStatus: userStatus
+      userType: userType
+      pageNo: pageNo
+      pageSize: pageSize
+
+
+
+
+
+

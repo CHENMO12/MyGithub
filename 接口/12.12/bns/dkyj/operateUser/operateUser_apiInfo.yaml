@@ -1,0 +1,77 @@
+operateUser:
+  add:
+    desc: 添加运营用户
+    url: /auth/person/addSupportPerson
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userName: name
+      userPhone: phone
+      roleId: roleId
+      areaCodesList: areaCodes
+
+  edit:
+    desc: 编辑运营用户
+    url: /auth/person/editSupportPerson
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userEmail: email
+      userHeadImage: icon
+      userId: id
+      userName: name
+      userRoles: userRoles
+
+  delete:
+    desc: 删除运营用户
+    url: /auth/person/deleteSupportUser
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userId: id
+
+  list:
+    desc: 运营用户列表
+    url: /auth/staff/getManagerList
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userInfo: paramName
+      userRole: roleSign
+      pageNo: pageNo
+      pageSize: pageSize
+
+  modifyPassword:
+    desc: 修改密码
+    url: /auth/user/modifyPassword
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      oldPasswordMd5: oldPassword
+      newPassword: password
+
+  getUserRoleList:
+    desc: 获取账户权限列表
+    url: /auth/role/getUserRoleList
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      oldPasswordMd5: oldPassword
+
+  changeUserRole:
+    desc: 切换账户权限角色
+    url: /auth/role/changeUserRole
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userId: id
+
+
+

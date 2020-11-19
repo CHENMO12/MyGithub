@@ -1,0 +1,7 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '359735d3-4b09-46fc-b7e8-d10916a8658e', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 标记为非客户请求参数:{'token': '359735d3-4b09-46fc-b7e8-d10916a8658e', 'snapId': 169292, 'vipType': 1}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '359735d3-4b09-46fc-b7e8-d10916a8658e', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 恢复为初次到访客户请求参数:{'snapId': 169292, 'token': '359735d3-4b09-46fc-b7e8-d10916a8658e'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '359735d3-4b09-46fc-b7e8-d10916a8658e', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': '359735d3-4b09-46fc-b7e8-d10916a8658e', 'areaCode': '000-000-005', 'phone': '47379440473', 'personName': 'yStO', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}

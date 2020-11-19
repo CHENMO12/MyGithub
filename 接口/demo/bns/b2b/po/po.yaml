@@ -1,0 +1,8 @@
+po:
+  add:
+    desc: 新建采购订单
+    url: /admin/po/add
+    port: 3003
+    method: post
+    contentType: json
+    data:

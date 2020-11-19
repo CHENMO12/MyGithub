@@ -1,0 +1,3 @@
+case_title,first_layer,sencod_layer,third_layer,parentAreaCode,floorName,expect_code,expect_msg,clean_data
+不填上级区域编码,节点管理,添加楼层节点,,,r,-4,areaCode must not be blank;,
+不填楼层名称,节点管理,添加楼层节点,,d,,-4,name 不可为空;,

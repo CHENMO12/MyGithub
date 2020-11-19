@@ -1,0 +1,7 @@
+权限服务: http://192.168.89.251:8750/swagger-ui.html
+
+设备服务: http://192.168.89.251:28081/swagger-ui.html
+
+节点和会员服务: http://192.168.89.251:8001/swagger-ui.html
+
+抓拍相关: http://192.168.89.251:8999/swagger-ui.html

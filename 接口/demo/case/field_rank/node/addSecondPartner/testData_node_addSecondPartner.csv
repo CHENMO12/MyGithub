@@ -1,0 +1,3 @@
+case_title,first_layer,sencod_layer,third_layer,parentAreaCode,partnerName,expect_code,expect_msg,clean_data
+不填写节点名称,节点管理,添加第二级合作方,,0001,,-4,name 不可为空;,
+不填写节点名称,节点管理,添加第二级合作方,,,0001,-4,areaCode must not be blank;,

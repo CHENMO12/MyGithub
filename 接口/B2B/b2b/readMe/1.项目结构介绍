@@ -1,0 +1,26 @@
+
+|-base(基础层)
+    |-decorators.py         项目使用的装饰器
+	|-exceptions.py		    自定义异常
+	|-helper.py			    常见辅助方法
+	|-logger.py			    日志方法
+	|-request.py		    http请求方法(确定基本请求参数, 返回结果的收集)
+	|-validator.py		    参数校验方法
+|-bns(业务层)
+	|-__init__.py	        业务层的基础建设(http请求模拟, http请求参数过滤, yaml文件加载)
+	|-facepass	            平台名称
+		|-__init__.py 		解决接口的业务规则(接口加密规则, token, session, cookie)
+		|-login.yaml		解决接口的业务规则所依赖的接口信息
+		|-device			模块: 设备模块, 一个模块即为一个文件夹
+			|-__init__.py	业务api接口(通过cli.py自动生成代码, 并修改两处TODO)
+			|-device_apiInfo.yaml	接口api信息(业务人员需要重点完成的部分)
+	|-cli.py		        辅助:自动生成业务api的封装代码
+|-case(用例层)
+	|-__init__.py	        用例层的基础建设(用例断言方法, csv文件加载)
+	|-field_rank	        字段级用例目录
+	|-cli.py		        辅助: 自动生成字段级用例模板代码(会生成一个py文件和一个csv文件)
+|-config
+	|-__init__.py		    可读取的配置信息
+	|-config.ini	  	    主配置文件
+|-install.bat               项目中的依赖包安装
+|-main.py                   用例执行入口

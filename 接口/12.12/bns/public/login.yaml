@@ -1,0 +1,12 @@
+publicUser:
+  login:
+    desc: 用户登录
+    url: /auth/getAccessToken
+    port: 36788
+    method: post
+    contentType: json
+    data:
+      userName: username
+      userPasswd: passwd
+      randStr: randStr
+      ticket: ticket

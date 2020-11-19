@@ -1,0 +1,12 @@
+dkyjUser:
+  login:
+    desc: 用户登录
+    url: /auth/user/getUserAccessToken
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      userName: username
+      userPasswd: password
+      randStr: randStr
+      ticket: ticket

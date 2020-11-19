@@ -1,0 +1,11 @@
+case_title,first_layer,sencod_layer,third_layer,deviceType,manufacturerType,deviceCode,deviceBarCode,hardwareVersion,lensType,expect_code,clean_data
+反侧_不填写设备类型,IOT设备管理,注册设备,,,0,r,r,r,r,-4,
+反侧_不填写厂商类型,IOT设备管理,注册设备,,0,,r,r,r,r,-4,
+反侧_不填写设备编码,IOT设备管理,注册设备,,0,0,,r,r,r,-4,
+反侧_设备编码长度大于14,IOT设备管理,注册设备,,0,0,111111111111111,r,r,r,3006,
+反侧_设备编码长度小于14,IOT设备管理,注册设备,,0,0,1111111111111,r,r,r,3006,
+反侧_不填写设备条码,IOT设备管理,注册设备,,0,0,r,,r,r,-4,
+反侧_设备条码长度大于10,IOT设备管理,注册设备,,0,0,r,11111111111,r,r,3007,
+反侧_设备条码长度小于10,IOT设备管理,注册设备,,0,0,r,111111111,r,r,3007,
+反侧_不填写硬件版本,IOT设备管理,注册设备,,0,0,r,r,,r,-4,
+反侧_不填写镜头类型,IOT设备管理,注册设备,,0,0,r,r,r,,-4,

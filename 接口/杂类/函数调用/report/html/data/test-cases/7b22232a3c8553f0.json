@@ -1,0 +1,227 @@
+{
+  "uid" : "7b22232a3c8553f0",
+  "name" : "test_case_01",
+  "fullName" : "demo_allure#test_case_01",
+  "historyId" : "b048f15ae5e447e3995af596496be131",
+  "time" : {
+    "start" : 1604371573379,
+    "stop" : 1604371573380,
+    "duration" : 1
+  },
+  "description" : "用例详细描述",
+  "descriptionHtml" : "<p>用例详细描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例详细描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤说明",
+      "time" : {
+        "start" : 1604371573379,
+        "stop" : 1604371573380,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ {
+        "name" : "校验:接口响应信息",
+        "time" : {
+          "start" : 1604371573379,
+          "stop" : 1604371573379,
+          "duration" : 0
+        },
+        "status" : "passed",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : false,
+        "stepsCount" : 0,
+        "hasContent" : false
+      } ],
+      "attachments" : [ {
+        "uid" : "3b416cab962f807b",
+        "name" : "接口请求信息:11111",
+        "source" : "3b416cab962f807b.json",
+        "type" : "application/json",
+        "size" : 39
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 1,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 2,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_01"
+  }, {
+    "name" : "story",
+    "value" : "简单校验"
+  }, {
+    "name" : "suite",
+    "value" : "demo_allure"
+  }, {
+    "name" : "host",
+    "value" : "WIN-0HDPTRO9OLO"
+  }, {
+    "name" : "thread",
+    "value" : "21720-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a23be9f54c5024c6",
+      "status" : "broken",
+      "statusDetails" : "TypeError: unhashable type: 'list'",
+      "time" : {
+        "start" : 1604371443305,
+        "stop" : 1604371443306,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f575450436711e35",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371166887,
+        "stop" : 1604371166888,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "e78c10244bd6e027",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604371130439,
+        "stop" : 1604371130439,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "49c15532b8612937",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604370774128,
+        "stop" : 1604370774129,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "ec0ed094924a930c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: a bytes-like object is required, not 'dict'",
+      "time" : {
+        "start" : 1604370705266,
+        "stop" : 1604370705268,
+        "duration" : 2
+      }
+    }, {
+      "uid" : "1ea06dff08317afe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604370674945,
+        "stop" : 1604370674946,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "5e22c789d0461885",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604370624509,
+        "stop" : 1604370624510,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "f8caa5d7f4ff0ec8",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604370307620,
+        "stop" : 1604370307620,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "dfa946b8aaf8f7ef",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604370211629,
+        "stop" : 1604370211629,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "86841d2dad9eaa79",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604369634700,
+        "stop" : 1604369634701,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "204746d3e7334246",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604368865190,
+        "stop" : 1604368865190,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "f022d2f364ac7396",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604368746987,
+        "stop" : 1604368746987,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "84c988edc2263544",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604368724960,
+        "stop" : 1604368724961,
+        "duration" : 1
+      }
+    }, {
+      "uid" : "4eed82aae3e06eed",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604214659552,
+        "stop" : 1604214659552,
+        "duration" : 0
+      }
+    }, {
+      "uid" : "2f25f7bdd7f36cd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1604213520088,
+        "stop" : 1604213520088,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7b22232a3c8553f0.json",
+  "parameterValues" : [ ]
+}

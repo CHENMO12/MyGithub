@@ -1,0 +1,225 @@
+node:
+  addFirstPartner:
+    desc: 添加一级合作方
+    url: /merchant/merchant/area/firs_partner/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      partnerName: name
+
+  addSecondPartner:
+    desc: 添加二级合作方
+    url: /merchant/merchant/area/second_partner/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      partnerName: name
+
+  addThirdPartner:
+    desc: 添加三级合作方
+    url: /merchant/merchant/area/third_partner/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      partnerName: name
+
+  addBrand:
+    desc: 添加品牌
+    url: /merchant/merchant/area/brand/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      brandName: name
+      ageGroups: ageGroups
+
+  addShop:
+    desc: 添加门店
+    url: /merchant/merchant/area/mall/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      shopName: name
+      province: province
+      city: city
+      district: district
+      clerkSim: clerkSim
+      clerkSimType: clerkSimType
+      customerSim: customerSim
+      customerSimType: customerSimType
+      groupId: groupCode
+      repeatDate: repeatDate
+      skipTime: skipTime
+      trailSkipTime: trailSkipTime
+
+  addFloor:
+    desc: 添加楼层
+    url: /merchant/merchant/area/floor/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      floorName: name
+
+  addLogic:
+    desc: 添加抓拍子节点
+    url: /merchant/merchant/area/logic/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      nodeName: name
+      logicTypeId: logicTypeId
+      skipTime: skipTime
+      skipType: skipType
+
+  addCollect:
+    desc: 添加汇总子节点
+    url: /merchant/merchant/area/collect/create
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      nodeName: name
+      collectTypeId: collectTypeId
+      skipTime: skipTime
+      skipType: skipType
+
+  editPartnerBrandFloor:
+    desc: 编辑无配置节点
+    url: /merchant/merchant/area/brand_partner/update
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      nodeName: name
+
+  editShop:
+    desc: 编辑门店节点
+    url: /merchant/merchant/area/mall_setting/update
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      shopName: name
+      province: province
+      city: city
+      district: district
+      clerkSim: clerkSim
+      clerkSimType: clerkSimType
+      customerSim: customerSim
+      customerSimType: customerSimType
+      groupId: groupId
+      repeatRange: repeatDate
+      skipTime: skipTime
+      trailSkipTime: trailSkipTime
+
+  editLogic:
+    desc: 编辑抓拍子节点
+    url: /merchant/merchant/area/logic/update
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      nodeName: name
+      logicTypeId: logicTypeId
+      skipTime: skipTime
+      skipType: skipType
+
+  editCollect:
+    desc: 编辑汇总子节点
+    url: /merchant/merchant/area/collect/update
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      nodeName: name
+      collectTypeId: collectTypeId
+      skipTime: skipTime
+      skipType: skipType
+
+  delete:
+    desc: 删除节点
+    url: /merchant/merchant/area/deactivate
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+
+  detail:
+    desc: 区域详情
+    url: /merchant/merchant/area/detail
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+
+  list:
+    desc: 区域列表
+    url: /merchant/merchant/area/node/list
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      name: name
+      nodeLevel: nodeLevel
+      pageNo: pageNo
+      pageSize: pageSize
+
+  codeSearch:
+    desc: 区域编码搜索
+    url: /merchant/merchant/area/search
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      areaCode: areaCode
+      includeParentNode: includeParentNode
+
+  tree:
+    desc: 节点树
+    url: /merchant/merchant/area/tree
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      areaType: areaType
+      expandAll: expandAll
+      includeParentNode: includeParentNode
+      name: name
+      nodeLevel: nodeLevel
+      provinceCity: provinceCity
+
+  treeGroup:
+    desc: 节点树
+    url: /merchant/merchant/area/tree_group
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      parentAreaCode: areaCode
+      areaType: areaType
+      expandAll: expandAll
+      includeParentNode: includeParentNode
+      name: name
+      nodeLevel: nodeLevel
+      provinceCity: provinceCity

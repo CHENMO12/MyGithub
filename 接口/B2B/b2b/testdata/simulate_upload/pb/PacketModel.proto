@@ -1,0 +1,323 @@
+syntax = "proto3";
+package com.reconova.tcp.message.model;
+
+// option java_package = "com.reconova.tcp.message.model";
+// option java_outer_classname = "PacketModel";
+
+// 通用字段
+message Common {
+    fixed64 seqno = 1;
+    int32 ver = 2;
+}
+
+// 设备登录验证
+message Login {
+    Common base=1;
+    string msg=2;
+    string ip=3;
+    int32 evState=4;
+    int32 type=5;
+    string hardwareVersion=6;
+    string frirmware_version=7;
+    string fpga_version=8;
+    int32 networkType=9;
+    string ssid=10;
+    string bssid=11;
+    int32 artificial=12;
+}
+
+// 服务器回复登录成功
+message ReplyLogin {
+    Common base=1;
+}
+
+// 设备心跳上报
+message DeviceStatus {
+    Common base=1;
+    string ip=2;
+    fixed64 time=3;
+}
+
+// 服务器返回心跳上报
+message ReplyDeviceStatus {
+    Common base=1;
+}
+
+// 店计设备发送数据还原请求
+message DataRestore {
+    Common base=1;
+    string msg=2;
+    string ip=3;
+}
+
+// 设备上报mac
+message MacData {
+    Common base=1;
+    string alarmId=2;
+    repeated Mac macs=3;
+    string macsTime=4;
+    message Mac {
+        string mac=1;
+        sint32 dBm=2;
+    }
+}
+
+// 服务器回复mac
+message ReplyMacData {
+    Common base=1;
+    bool issuccee=2;
+    string alarmId=3;
+}
+
+// 店计V2抓拍或会员数据上报
+message DankiV2ReportData {
+    Common base=1;
+    int32 userStatus=2;
+    int32 capAngle=3;
+    string imageTime=4;
+    int32 dbId=5;
+    int32 alarm_type=6;
+    int32 faceHeight=7;
+    string faceSrc=8;
+    int32 cameraId=9;
+    int32 eventType=10;
+    int32 staytimeisupload=11;
+    int32 type=12;
+    bytes faceFrame=13;
+    int32 fstatus=14;
+    int32 dataisupload=15;
+    repeated Alarm alarmList=16;
+    message Alarm {
+        int32 dbId=1;
+        int32 faceId=2;
+        int32 rowVersion=3;
+        int32 personId=4;
+        double sim=5;
+        string alarmId=6;
+    }
+    int32 nose_x=17;
+    int32 age=18;
+    double facial_score=19;
+    int32 nose_y=20;
+    int32 righteye_y=21;
+    int32 personId=22;
+    int32 righteye_x=23;
+    int32 gender=24;
+    int32 left=25;
+    int32 right=26;
+    int32 top=27;
+    int32 imageHeight=28;
+    int32 faceSize=29;
+    string imageSrc=30;
+    int32 faceWidth=31;
+    double genderlevel=32;
+    int32 alarm_level=33;
+    string alarmId=34;
+    int32 imageSize=35;
+    int32 centermouth_x=36;
+    int32 lefteye_x=37;
+    int32 lefteye_y=38;
+    int32 centermouth_y=39;
+    int32 personUserId=40;
+    fixed64 leaveTime=41;
+    int32 matchSize=42;
+    int32 bottom=43;
+    fixed64 enterTime=44;
+    double sim=45;
+    int32 track_no=46;
+    int32 imageWidth=47;
+}
+
+// 店计V4抓拍数据上报
+message DankiV4ReportData {
+    Common base=1;
+    int32 userStatus=2;
+    int32 capAngle=3;
+    int32 arithmetic=4;
+    string imageTime=5;
+    int32 centerLocationX=6;
+    int32 centerLocationY=7;
+    int32 gender=8;
+    int32 age=9;
+    string alarmId=10;
+    int32 resideTime=11;
+    bytes faceFrame=12;
+    bytes bodyFrame=13;
+    double score=14;
+}
+
+// 晓客抓拍数据上报
+message XiaokeReportData {
+    Common base=1;
+    int32 userStatus=2;
+    string imageTime=3;
+    string deviceIP=4;
+    string attentionArea=5;
+    int32 gender=6;
+    int32 age=7;
+    string alarmId=8;
+    int32 resideTime=9;
+    bytes faceFrame=10;
+}
+
+// 广告机抓拍数据上报
+message AdReportData {
+    Common base=1;
+    int32 userStatus=2;
+    int32 gender=3;
+    bytes faceFrame=4;
+    string alarmId=5;
+    fixed64 enterTime=6;
+    string imageTime=7;
+    fixed64 leaveTime=8;
+    int32 age=9;
+}
+
+// 服务器回复数据上报
+message ReplyReportData {
+    Common base=1;
+    bool issuccee=2;
+    string alarmId=3;
+}
+
+// 服务器发送设备清空数据消息
+message ClearData {
+    Common base=1;
+    string msgid=2;
+}
+
+// 设备回复清空数据消息
+message ReplyClearData {
+    Common base=1;
+    string msgid=2;
+}
+
+// 服务器发送修改背光补偿开关消息
+message UpdateEvState {
+    Common base=1;
+    int32 evState=2;
+    string msgid=3;
+}
+
+// 设备回复修改背光补偿开关消息
+message ReplyUpdateEvState {
+    Common base=1;
+    string msgid=2;
+}
+
+// 服务器在店计设备替换成功后将二次比对状态下发到设备
+message UpdateReanalyze {
+    Common base=1;
+    int32 reanalyze=2;
+    string msgid=3;
+}
+
+// 设备回复状态的下发
+message ReplyUpdateReanalyze {
+    Common base=1;
+    string msgid=2;
+}
+
+// 设备上报背光补偿开关消息
+message ReportEvState {
+    Common base=1;
+    int32 evState=2;
+    string hardwareVersion=4;
+}
+
+// 店计V2驻留时间上报
+message DankiV2ResideTime {
+    Common base=1;
+    string imageTime=2;
+    int32 age=3;
+    int32 gender=4;
+    string alarmId=5;
+    int32 resideTime=6;
+}
+
+// 广告机驻留时长上报
+message AdResidenceTime {
+    Common base=1;
+    string imageTime=2;
+    int32 age=3;
+    int32 gender=4;
+    string alarmId=5;
+    int32 resideTime=6;
+}
+
+// 服务器回复店计驻留时间上报
+message ReplyResidenceTime {
+    Common base=1;
+    bool issuccee=2;
+    string alarmId=3;
+}
+
+// 设备上报大图
+message UploadBigImg {
+    Common base=1;
+    string alarmId=2;
+    bytes imageFrame=3;
+    string imageSrc=4;
+    string imageTime=5;
+}
+
+// 服务器回复大图上报
+message ReplyUploadBigImg {
+    Common base=1;
+    bool issuccee=2;
+    string alarmId=3;
+}
+
+message UpdateArtificial {
+    Common base=1;
+    int32 artificial=2;
+}
+
+message UpdateRemoteState {
+    Common base=1;
+    int32 remoteState=2;
+    int32 port=3;
+}
+
+message WifiConfig {
+    Common base=1;
+    string wifiname=2;
+    string wifitype=3;
+    string wifipwd=4;
+}
+
+// 服务器发送全身图
+message BodyImage {
+    Common base=1;
+    int32 isOpen=2;
+    string msgid=3;
+}
+
+// 服务器发起设备重启消息
+message Reboot {
+    Common base=1;
+}
+
+message ReplyUpdateRemoteState {
+    Common base=1;
+}
+
+// 设备回复全身图
+message ReplyPerson {
+    Common base=1;
+    string data=2;
+    string msgid=3;
+}
+
+// 服务器返回数据格式错误的消息
+message ReplyDataError {
+    Common base=1;
+    int32 errcode = 2;
+}
+
+// 服务器返回密码失效的消息
+message ReplyPasswordInvalid {
+    fixed64 seqno = 1;
+    int32 ver = 2;
+    int32 errcode = 3;
+}

@@ -1,0 +1,306 @@
+{
+  "uid" : "e4472d08f3da8b1b",
+  "name" : "test_business_",
+  "fullName" : "_testcase.advanced_testcase.TestAddTraceAgain#test_business_",
+  "historyId" : "7c2846f42f51ee99b61e505df1b60645",
+  "time" : {
+    "start" : 1575305619574,
+    "stop" : 1575305645621,
+    "duration" : 26047
+  },
+  "description" : "用例名称：初次到访-跟进-再次跟进",
+  "descriptionHtml" : "<p>用例名称：初次到访-跟进-再次跟进</p>\n",
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert '试试' == 'Tidc'\n  - 试试\n  + Tidc",
+  "statusTrace" : "self = <business_app._testcase.advanced_testcase.TestAddTraceAgain object at 0x00000109972680F0>\n\n    @allure.feature('会员识别')\n    @allure.story('跟进-再次跟进')\n    @allure.description(\"用例名称：初次到访-跟进-再次跟进\")\n    @allure.severity('blocker')\n    def test_business_(self):\n        WSI_MASK_PATH = 'F:\\\\模拟上传数据\\\\6000_picture'  # 存放图片的文件夹路径\n        wsi_mask_paths = glob.glob(os.path.join(WSI_MASK_PATH, '*.jpg'))\n        path = random.choice(wsi_mask_paths)\n        self.picturePath = path\n        upload.run(picture=self.picturePath)\n        time.sleep(5)\n        self.api.common_save_trace_info(required_isTrade=0)\n        time.sleep(5)\n        response = self.api.common_datalist()\n        time.sleep(5)\n        upload.run(picture=path)\n        time.sleep(5)\n        response2 = self.api.common_datalist()\n        time.sleep(5)\n        self.api.common_save_trace_info(required_isTrade=1)\n        response1 = self.api.common_datalist()\n        expect_msg = \"请求成功\"\n        with allure.step('步骤1：发送请求'):\n            attachJson(response.json(), '接口的相关参数信息')\n            attachJson(response1.json(), '接口的相关参数信息')\n            attachJson(response2.json(), '接口的相关参数信息')\n    \n        with allure.step('步骤2：获取响应信息'):\n            response_msg = parseJson_by_objectpath(response.json(), \"$.message\")\n            response_personName = parseJson_by_objectpath(response.json(), \"$.*.data.personName\")[0]\n            response_msg1 = parseJson_by_objectpath(response1.json(), \"$.message\")\n            response_personName2 = parseJson_by_objectpath(response2.json(), \"$.*.data.personName\")[0]\n            response_vipType = parseJson_by_objectpath(response.json(), \"$.*.data.vipType\")[0]\n            response_vipType1 = parseJson_by_objectpath(response1.json(), \"$.*.data.vipType\")[0]\n            attachText(\"\", \"接口返回的提示信息：{}\".format(response_msg))\n            attachText(\"\", \"接口返回的提示信息：{}\".format(response_msg1))\n            attachText(\"\", \"接口返回跟进后的客户姓名：{}\".format(response_personName))\n            attachText(\"\", \"接口返回下次来访识别的客户姓名：{}\".format(response_personName2))\n    \n        with allure.step('步骤3：检查点校验'):\n            attachText(\"\", \"期望状态码：{}\".format(expect_msg))\n            attachText(\"\", \"实际返回参数：{}\".format(response_vipType))\n            attachText(\"\", \"期望返回参数：{}\".format(2))\n            attachText(\"\", \"实际返回参数：{}\".format(response_vipType1))\n            attachText(\"\", \"期望返回参数：{}\".format(3))\n            attachText(\"\", \"第一次跟进后的客户名：{}\".format(response_personName))\n            attachText(\"\", \"客户第二次来会员识别的客户名：{}\".format(response_personName2))\n            assert response_vipType == 2\n            assert response_vipType1 == 3\n            assert expect_msg == response_msg\n            assert expect_msg == response_msg1\n>           assert response_personName2 == response_personName\nE           AssertionError: assert '试试' == 'Tidc'\nE             - 试试\nE             + Tidc\n\n_testcase\\advanced_testcase.py:191: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_method",
+    "time" : {
+      "start" : 1575305619574,
+      "stop" : 1575305619574,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "前置条件1：上传一个客流上传两次...",
+      "time" : {
+        "start" : 1575305619574,
+        "stop" : 1575305619574,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 1
+  }, {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1575305619492,
+      "stop" : 1575305619573,
+      "duration" : 81
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "testStage" : {
+    "description" : "用例名称：初次到访-跟进-再次跟进",
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert '试试' == 'Tidc'\n  - 试试\n  + Tidc",
+    "statusTrace" : "self = <business_app._testcase.advanced_testcase.TestAddTraceAgain object at 0x00000109972680F0>\n\n    @allure.feature('会员识别')\n    @allure.story('跟进-再次跟进')\n    @allure.description(\"用例名称：初次到访-跟进-再次跟进\")\n    @allure.severity('blocker')\n    def test_business_(self):\n        WSI_MASK_PATH = 'F:\\\\模拟上传数据\\\\6000_picture'  # 存放图片的文件夹路径\n        wsi_mask_paths = glob.glob(os.path.join(WSI_MASK_PATH, '*.jpg'))\n        path = random.choice(wsi_mask_paths)\n        self.picturePath = path\n        upload.run(picture=self.picturePath)\n        time.sleep(5)\n        self.api.common_save_trace_info(required_isTrade=0)\n        time.sleep(5)\n        response = self.api.common_datalist()\n        time.sleep(5)\n        upload.run(picture=path)\n        time.sleep(5)\n        response2 = self.api.common_datalist()\n        time.sleep(5)\n        self.api.common_save_trace_info(required_isTrade=1)\n        response1 = self.api.common_datalist()\n        expect_msg = \"请求成功\"\n        with allure.step('步骤1：发送请求'):\n            attachJson(response.json(), '接口的相关参数信息')\n            attachJson(response1.json(), '接口的相关参数信息')\n            attachJson(response2.json(), '接口的相关参数信息')\n    \n        with allure.step('步骤2：获取响应信息'):\n            response_msg = parseJson_by_objectpath(response.json(), \"$.message\")\n            response_personName = parseJson_by_objectpath(response.json(), \"$.*.data.personName\")[0]\n            response_msg1 = parseJson_by_objectpath(response1.json(), \"$.message\")\n            response_personName2 = parseJson_by_objectpath(response2.json(), \"$.*.data.personName\")[0]\n            response_vipType = parseJson_by_objectpath(response.json(), \"$.*.data.vipType\")[0]\n            response_vipType1 = parseJson_by_objectpath(response1.json(), \"$.*.data.vipType\")[0]\n            attachText(\"\", \"接口返回的提示信息：{}\".format(response_msg))\n            attachText(\"\", \"接口返回的提示信息：{}\".format(response_msg1))\n            attachText(\"\", \"接口返回跟进后的客户姓名：{}\".format(response_personName))\n            attachText(\"\", \"接口返回下次来访识别的客户姓名：{}\".format(response_personName2))\n    \n        with allure.step('步骤3：检查点校验'):\n            attachText(\"\", \"期望状态码：{}\".format(expect_msg))\n            attachText(\"\", \"实际返回参数：{}\".format(response_vipType))\n            attachText(\"\", \"期望返回参数：{}\".format(2))\n            attachText(\"\", \"实际返回参数：{}\".format(response_vipType1))\n            attachText(\"\", \"期望返回参数：{}\".format(3))\n            attachText(\"\", \"第一次跟进后的客户名：{}\".format(response_personName))\n            attachText(\"\", \"客户第二次来会员识别的客户名：{}\".format(response_personName2))\n            assert response_vipType == 2\n            assert response_vipType1 == 3\n            assert expect_msg == response_msg\n            assert expect_msg == response_msg1\n>           assert response_personName2 == response_personName\nE           AssertionError: assert '试试' == 'Tidc'\nE             - 试试\nE             + Tidc\n\n_testcase\\advanced_testcase.py:191: AssertionError",
+    "steps" : [ {
+      "name" : "步骤1：发送请求",
+      "time" : {
+        "start" : 1575305645592,
+        "stop" : 1575305645614,
+        "duration" : 22
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b50f3910b2ff9436",
+        "name" : "接口的相关参数信息",
+        "source" : "b50f3910b2ff9436.json",
+        "type" : "application/json",
+        "size" : 4279
+      }, {
+        "uid" : "dbfcfaa1a972d4c8",
+        "name" : "接口的相关参数信息",
+        "source" : "dbfcfaa1a972d4c8.json",
+        "type" : "application/json",
+        "size" : 5216
+      }, {
+        "uid" : "297a98ba838d2195",
+        "name" : "接口的相关参数信息",
+        "source" : "297a98ba838d2195.json",
+        "type" : "application/json",
+        "size" : 5219
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 3,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤2：获取响应信息",
+      "time" : {
+        "start" : 1575305645614,
+        "stop" : 1575305645617,
+        "duration" : 3
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd018ced405c1948",
+        "name" : "接口返回的提示信息：请求成功",
+        "source" : "dd018ced405c1948.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "b888d650acb32e25",
+        "name" : "接口返回的提示信息：请求成功",
+        "source" : "b888d650acb32e25.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "4bba54c2d4e52f0e",
+        "name" : "接口返回跟进后的客户姓名：Tidc",
+        "source" : "4bba54c2d4e52f0e.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "c256b7d54ee940c8",
+        "name" : "接口返回下次来访识别的客户姓名：试试",
+        "source" : "c256b7d54ee940c8.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 4,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true,
+      "stepsCount" : 0
+    }, {
+      "name" : "步骤3：检查点校验",
+      "time" : {
+        "start" : 1575305645617,
+        "stop" : 1575305645621,
+        "duration" : 4
+      },
+      "status" : "failed",
+      "statusMessage" : "AssertionError: assert '试试' == 'Tidc'\n  - 试试\n  + Tidc\n",
+      "statusTrace" : "  File \"F:\\接口自动化测试\\business_app\\_testcase\\advanced_testcase.py\", line 191, in test_business_\n    assert response_personName2 == response_personName\n",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "efdf3e7ecdc86918",
+        "name" : "期望状态码：请求成功",
+        "source" : "efdf3e7ecdc86918.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "c00fa60f18b9b754",
+        "name" : "实际返回参数：2",
+        "source" : "c00fa60f18b9b754.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "eda52c1e9c8c4a76",
+        "name" : "期望返回参数：2",
+        "source" : "eda52c1e9c8c4a76.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "f11df4cca2bdd4d1",
+        "name" : "实际返回参数：3",
+        "source" : "f11df4cca2bdd4d1.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "8f079a491144ec97",
+        "name" : "期望返回参数：3",
+        "source" : "8f079a491144ec97.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "b8a669dc5a1d2d8a",
+        "name" : "第一次跟进后的客户名：Tidc",
+        "source" : "b8a669dc5a1d2d8a.txt",
+        "type" : "text/plain",
+        "size" : 0
+      }, {
+        "uid" : "8482d32e3ccd704b",
+        "name" : "客户第二次来会员识别的客户名：试试",
+        "source" : "8482d32e3ccd704b.txt",
+        "type" : "text/plain",
+        "size" : 0
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 7,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true,
+      "stepsCount" : 0
+    } ],
+    "attachments" : [ {
+      "uid" : "47d4140a5c93442c",
+      "name" : "log",
+      "source" : "47d4140a5c93442c.txt",
+      "type" : "text/plain",
+      "size" : 1799
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 15,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true,
+    "stepsCount" : 3
+  },
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_method::0",
+    "time" : {
+      "start" : 1575305645693,
+      "stop" : 1575305645693,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  }, {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1575305645694,
+      "stop" : 1575305645694,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "hasContent" : false,
+    "stepsCount" : 0
+  } ],
+  "labels" : [ {
+    "name" : "severity",
+    "value" : "blocker"
+  }, {
+    "name" : "story",
+    "value" : "跟进-再次跟进"
+  }, {
+    "name" : "feature",
+    "value" : "会员识别"
+  }, {
+    "name" : "parentSuite",
+    "value" : "_testcase"
+  }, {
+    "name" : "suite",
+    "value" : "advanced_testcase"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestAddTraceAgain"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-C6QH5B9"
+  }, {
+    "name" : "thread",
+    "value" : "212800-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "_testcase.advanced_testcase"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "blocker",
+    "retries" : [ {
+      "uid" : "8750adb57a40a0dd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1575279021106,
+        "stop" : 1575279047849,
+        "duration" : 26743
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "e4472d08f3da8b1b.json",
+  "parameterValues" : [ ]
+}

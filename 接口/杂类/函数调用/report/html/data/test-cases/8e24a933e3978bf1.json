@@ -1,0 +1,88 @@
+{
+  "uid" : "8e24a933e3978bf1",
+  "name" : "test_case_02",
+  "fullName" : "demo_allure#test_case_02",
+  "historyId" : "540e3f84a0c7aae413d2ba4c1899276e",
+  "time" : {
+    "start" : 1604368865192,
+    "stop" : 1604368865193,
+    "duration" : 1
+  },
+  "description" : "用例详细描述",
+  "descriptionHtml" : "<p>用例详细描述</p>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "用例详细描述",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤说明",
+      "time" : {
+        "start" : 1604368865192,
+        "stop" : 1604368865193,
+        "duration" : 1
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5ac3ce089ea90bd0",
+        "name" : "这是用例参数",
+        "source" : "5ac3ce089ea90bd0.attach",
+        "type" : "text/plain",
+        "size" : 12
+      } ],
+      "parameters" : [ ],
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "test_module_02"
+  }, {
+    "name" : "story",
+    "value" : "简单校验"
+  }, {
+    "name" : "suite",
+    "value" : "demo_allure"
+  }, {
+    "name" : "host",
+    "value" : "WIN-0HDPTRO9OLO"
+  }, {
+    "name" : "thread",
+    "value" : "24108-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "demo_allure"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8e24a933e3978bf1.json",
+  "parameterValues" : [ ]
+}

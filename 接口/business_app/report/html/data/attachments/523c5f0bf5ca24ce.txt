@@ -1,0 +1,5 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '7e3f6c0b-789c-4948-8f96-6db5db21b549', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': '7e3f6c0b-789c-4948-8f96-6db5db21b549', 'areaCode': '000-000-005', 'phone': '43725113681', 'personName': '1mhg', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '7e3f6c0b-789c-4948-8f96-6db5db21b549', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 添加跟进信息请求参数:{'snapId': 169292, 'token': '7e3f6c0b-789c-4948-8f96-6db5db21b549', 'areaCode': '000-000-005', 'personName': '1mhg', 'isTrade': 1, 'brands': ['黄金', '白金', '钻石'], 'intention': '高', 'remark': '追加记录...', 'used': ['送礼', '收藏', '自用'], 'personCode': 917616, 'phone': '43725113681'}

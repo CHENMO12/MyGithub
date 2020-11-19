@@ -1,0 +1,6 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': '0fd71415-6a46-42e2-ab76-9c683c359231', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': '0fd71415-6a46-42e2-ab76-9c683c359231', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 1}
+INFO     root:mylog.py:71 关联请求参数:{'token': '0fd71415-6a46-42e2-ab76-9c683c359231', 'snapId': 169291, 'areaCode': '000-000-005', 'personName': '3ZLw', 'isTrade': 1, 'personCode': 0, 'phone': '75967949956', 'imageHeader': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/66186f9a-9166-4c6e-815d-b4a053335fa1.jpg', 'imagePathList': ['http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/cf2c7837-bfba-4ff8-a2c1-79ff1f7efb62.jpg'], 'snapIdList': [169290]}
+INFO     root:mylog.py:71 抓拍列表统计请求参数:{'token': '0fd71415-6a46-42e2-ab76-9c683c359231', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 我的客户列表请求参数:{'token': '0fd71415-6a46-42e2-ab76-9c683c359231', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'vipType': 3}

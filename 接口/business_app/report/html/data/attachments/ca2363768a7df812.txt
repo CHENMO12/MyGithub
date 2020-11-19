@@ -1,0 +1,9 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'phone': '15477600213', 'personName': 'e1vJ', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 0, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 跟进信息请求参数:{'snapId': 169292, 'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'phone': '35282236610', 'personName': 'VEBQ', 'imagePath': 'http://dj.reconova.com/upload_img1108/report/2019-12-02/DJ5e408e26f808/8193f5c7-97e7-4efe-8787-1ff45457715e.jpg', 'isTrade': 1, 'brands': ['黄金'], 'intention': '中', 'remark': '测试...', 'used': ['自己用']}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 1}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 2}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'e98fe65b-2593-4195-b739-160225d6af48', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 3}

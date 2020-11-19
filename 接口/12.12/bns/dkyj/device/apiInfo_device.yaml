@@ -1,0 +1,45 @@
+device:
+  add:
+    desc: 绑定设备
+    url: /device/mall/device/add
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      deviceCodeOrBar: deviceCode
+      deviceName: deviceName
+      areaCodesList: areaCodes
+
+  list:
+    desc: 设备列表
+    url: /device/mall/device/list
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      deviceCodeOrBar: deviceCodeMix
+      areaCodesList: areaCodes
+      deviceType: deviceType
+      onlineStatus: onlineStatus
+      pageNo: pageNo
+      pageSize: pageSize
+
+  umount:
+    desc: 解绑设备
+    url: /device/mall/device/unMount
+    port: 36789
+    method: post
+    contentType: json
+    data:
+      deviceCode: deviceCode
+      areaCode: nodeCode
+
+  auth:
+    desc: 设备鉴权
+    url: /equ/auth
+    port: 8700
+    method: post
+    contentType: json
+    data:
+      deviceCode: equno
+      data: data

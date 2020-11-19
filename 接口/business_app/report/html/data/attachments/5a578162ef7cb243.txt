@@ -1,0 +1,5 @@
+INFO     root:mylog.py:71 登入成功...
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'cee0e338-3711-435d-8ffc-aae9d6d88f13', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02'}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'cee0e338-3711-435d-8ffc-aae9d6d88f13', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 1}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'cee0e338-3711-435d-8ffc-aae9d6d88f13', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 2}
+INFO     root:mylog.py:71 抓拍列表数据请求参数:{'token': 'cee0e338-3711-435d-8ffc-aae9d6d88f13', 'areaCode': '000-000-005', 'startDate': '2019-12-02', 'endDate': '2019-12-02', 'dataType': 3}
