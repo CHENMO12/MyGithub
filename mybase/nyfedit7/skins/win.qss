@@ -1,0 +1,224 @@
+
+/*********************************************************/
+
+
+QMainWindow
+{
+	background: darkgray url(%CustomBackgroundImage%) repeat;
+}
+
+QMainWindow::separator
+{
+	width: 5px;
+	background-color: #c3d9ff;
+}
+
+
+/*********************************************************/
+
+
+/*QFrame#NoteHeader
+{
+	background: #f9f9f8 url(%ImgDir%/bg_menubar.png) repeat-x;
+
+	border-bottom: 1px solid lightgrey;
+}*/
+
+
+/*********************************************************/
+
+
+/*QMenuBar
+{
+	background-image: url(%ImgDir%/bg_menubar.png);
+	background-repeat: repeat-x;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+QMenuBar::item
+{
+	background: transparent;
+}
+
+QMenuBar::item:selected, QMenuBar::item:pressed
+{
+	background-color: #3399ff;
+	color: white;
+}*/
+
+
+/*********************************************************/
+
+QToolBar
+{
+	/*background-image: url(%ImgDir%/bg_menubar.png);
+	background-repeat: repeat-x;*/
+
+	/*background: transparent;
+	border: 0px none transparent;*/
+}
+
+/*********************************************************/
+
+/*QStatusBar
+{
+	border-top: 1px solid grey;
+	background-color: #f5f5f5;
+	background: #f5f5f5 url(%ImgDir%/bg_menubar.png) repeat-x;
+}
+
+QStatusBar::item
+{
+	border: 0px none transparent;
+}*/
+
+/*********************************************************/
+
+QSplitter
+{
+	/*background-color: transparent;*/
+}
+
+QSplitter::handle
+{
+	background-color: #c3d9ff;
+}
+
+QSplitter::horizontal:handle
+{
+	width: 5px;
+}
+
+QSplitter::vertical:handle
+{
+	height: 5px;
+}
+
+QSplitter#WorkSpace
+{
+	/*background: darkgray url(%CustomBackgroundImage%) repeat;*/
+	background: transparent;
+}
+
+/*********************************************************/
+
+QTabWidget#DbTabs::tab-bar
+{
+	left: 10px;
+}
+
+QTabWidget#NavTabs::pane
+{
+	border-left: 1px solid gray;
+}
+
+QTabWidget#NavTabs::tab-bar
+{
+	top: 10px;
+}
+
+QTabWidget#RelaTabs::pane
+{
+	border-top: 1px solid gray;
+}
+
+QTabWidget#RelaTabs::tab-bar
+{
+	left: 20px;
+	top: 1px;
+}
+
+QTabWidget#QueryTabs::pane
+{
+	border-bottom: 1px solid gray;
+}
+
+QTabWidget#QueryTabs::tab-bar
+{
+	left: 10px;
+	bottom: 1px;
+}
+
+QTabWidget#OptionTabs::tab-bar
+{
+	left: 5px;
+}
+
+/*********************************************************/
+
+QListWidget#SubItems
+{
+	border: 0px;
+	padding: 4px;
+}
+
+/*********************************************************/
+
+/*QHeaderView
+{
+	background-image: url(%ImgDir%/bg_menubar.png);
+	background-repeat: repeat-x;
+}
+
+QHeaderView::section
+{
+	background-image: url(%ImgDir%/bg_menubar.png);
+	background-repeat: repeat-x;
+	color: black;
+	padding-left: 4px;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	border: 0px none transparent;
+	border-right: 1px solid #d5d5d5;
+	border-bottom: 1px solid #d5d5d5;
+}
+
+QHeaderView::down-arrow
+{
+	right: 5px;
+	image: url(%ImgDir%/ico_downarrow.png);
+}
+
+QHeaderView::up-arrow
+{
+	right: 5px;
+	image: url(%ImgDir%/ico_uparrow.png);
+}*/
+
+
+/*********************************************************/
+
+
+/*QComboBox#FontSize
+{
+	width: 50px;
+	max-width: 100px;
+	max-height: 18px;
+	min-height: 15px;
+}
+
+QComboBox#FontFamily
+{
+	width: 150px;
+	max-width: 200px;
+	max-height: 18px;
+	min-height: 15px;
+}*/
+
+
+/*********************************************************/
+
+
+/*QDockWidget::title {
+	text-align: left;
+	background: lightgray;
+	padding-left: 5px;
+	margin: 0px;
+	background-image: url(%ImgDir%/bg_menubar.png);
+	background-repeat: repeat-x;
+
+	border-bottom: 1px solid lightgrey;
+}*/
+
+
+/*********************************************************/

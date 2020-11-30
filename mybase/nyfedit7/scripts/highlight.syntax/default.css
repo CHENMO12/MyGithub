@@ -1,0 +1,183 @@
+﻿/*
+CSS for source code syntax-highlighter for Rich/Plain text editor
+===================================================================
+The stylesheet code only supports a subset of the W3C/CSS Specs (i.e. font-size/style/weight & color)
+It's recommended that you first create a backup of the stylesheet code before making modifications.
+*/
+
+.tag{
+	/* keywords */
+	color: DarkMagenta;
+	font-weight: bold;
+}
+
+.tag1{
+	/* reserved tags, etc. */
+	color: #204a87;
+	font-weight: bold;
+}
+
+.tag2{
+	/* additional tags */
+	color: #954121;
+	font-weight: bold;
+}
+
+.tag3{
+	/* misc. tags */
+	color: #cc0000;
+	font-weight: bold;
+}
+
+.stl{
+	/* for c++ stl names */
+	color: DarkViolet;
+	font-weight: bold;
+}
+
+.qt{
+	/* for Qt class names */
+	color: SlateBlue;
+	font-weight: normal;
+}
+
+.rem{
+	/* remarks, comments, etc. */
+	color: LightSlateGrey;
+	font-style: italic;
+}
+
+.attrname{
+	/* attribute names for html */
+	color: darkblue;
+}
+
+.attrval{
+	/* attribute values for html */
+	color: SeaGreen;
+}
+
+.lvalue{
+	/* L-value */
+	color: #458;
+}
+
+.string{
+	/* constant strings */
+	color: SeaGreen;
+	font-weight: bold;
+}
+
+.num{
+	/* constant numbers */
+	color: SteelBlue;
+	font-weight: bold;
+}
+
+.directive{
+	/* pre-compiler directives */
+	color: purple;
+	font-weight: bold;
+}
+
+.found{
+	/* match occurrences */
+	background-color: yellow;
+}
+
+/*******************************************************/
+/* styles for Markdown source code */
+
+.heading1{
+	/* MD::heading 1 */
+	color: purple;
+	font-size: 22pt;
+	font-weight: bold;
+}
+
+.heading2{
+	/* MD::heading 2 */
+	color: purple;
+	font-size: 20pt;
+	font-weight: bold;
+}
+
+.heading3{
+	/* MD::heading 3 */
+	color: purple;
+	font-size: 18pt;
+	font-weight: bold;
+}
+
+.heading4{
+	/* MD::heading 4 */
+	color: purple;
+	font-size: 16pt;
+	font-weight: bold;
+}
+
+.heading5{
+	/* MD::heading 5 */
+	color: purple;
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.heading6{
+	/* MD::heading 6 */
+	color: purple;
+	font-size: 12pt;
+	font-weight: bold;
+}
+
+.bullet{
+	/* MD::bullets */
+	color: Teal;
+}
+
+.numbering{
+	/* MD::numbering */
+	color: Sienna;
+}
+
+.emphasis{
+	/* MD::emphasis */
+	color: navy;
+	font-style: italic;
+}
+
+.strong{
+	/* MD::strong */
+	color: maroon;
+	font-weight: bold;
+}
+
+.ref{
+	/* MD::references */
+	color: blue;
+	font-style: italic;
+}
+
+.link{
+	/* MD::links */
+	color: blue;
+	font-weight: bold;
+	/*text-decoration: underline;*/
+}
+
+.image{
+	/* MD::images */
+	color: PaleVioletRed;
+	font-weight: bold;
+}
+
+.code{
+	/* MD::sourcecode */
+	color: PaleVioletRed;
+}
+
+.email{
+	/* MD::email addresses */
+	color: plum;
+	font-weight: bold;
+}

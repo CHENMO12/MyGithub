@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="Application" content="myBase Desktop">
+		<link rel="stylesheet" type="text/css" href="file:///${scripts}/highlight.styles/${SyntaxHighlightStyleName}.css">
+		<title>%DOCUMENT_TITLE%</title>
+		<style>
+			body, pre, code{margin: 0; padding: 0; border: 0;}
+		</style>
+	</head>
+
+	<body>
+
+	<article>
+	<pre><code class='%LANG_TAG%'>%SOURCE_CODE_CONTENT%</code></pre>
+	</article>
+
+	<div>
+		<script src="file:///${scripts}/highlight.pack.js" type="text/javascript"></script>
+		<script>
+			hljs.configure({tabReplace: function(n){if(n<1 || n>32) n=4; var r=""; while(n-- > 0) r+=" "; return r;}(parseInt(app.getConfigValByKey("HtmlEdit.TabWidth")))});
+			hljs.initHighlightingOnLoad();
+		</script>
+	</div>
+
+	</body>
+</html>

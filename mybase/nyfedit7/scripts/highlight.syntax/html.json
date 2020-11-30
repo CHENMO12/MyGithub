@@ -1,0 +1,23 @@
+
+/////////////////////////////////////////////////////////////////////
+// Extension scripts for myBase Desktop v7.x
+// Copyright 2018 Wjj Software. All rights Reserved.
+// Website: www.wjjsoft.com  Contact: info@wjjsoft.com
+/////////////////////////////////////////////////////////////////////
+// This code is property of Wjj Software (WJJSOFT). You may not use it
+// for any commercial purpose without preceding consent from authors.
+/////////////////////////////////////////////////////////////////////
+
+var sTitle="HTML";
+
+var vTags=[
+	{pattern: "(<!?[a-zA-Z:]+\\b|<\\?[a-zA-Z:]+\\b|\\?>|>|/>|</[a-zA-Z:]+>)", nocase: true, classname: 'tag'}
+	, {pattern: "[a-zA-Z:]+=", nocase: true, classname: 'attrname'}
+	, {pattern: "(\"[^\"]*\"|'[^']*')", nocase: true, classname: 'attrval'}
+];
+
+var vComments=[
+	{tags: ["<!--", "-->"], nocase: false, classname: 'rem'}
+];
+
+

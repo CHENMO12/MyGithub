@@ -1,0 +1,206 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Custom document type</title>
+	<style type="text/css">
+		body {
+			text-align: center;
+			font-family: Monaco, "Microsoft YaHei", Sans-Serif, Tahoma, Verdana, Helvetica, Arial, 'Trebuchet MS';
+			background: #EFEFEF;
+			background: transparent;
+		}
+
+		#ID_Content {
+			margin-top: 10px;
+			margin-right: 0;
+		}
+
+		#ID_Content h1 {
+			text-shadow: 1px 1px 5px #CCCCCC;
+			color: #777777;
+		}
+
+		#ID_Content h3 {
+			color: #888888;
+			color: black;
+		}
+
+		#ID_LIST {
+			margin-top: 10px;
+			display: inline-table;
+		}
+
+		.CLS_Box {
+			width: 110px;
+			height: 64px;
+			display: table-cell;
+			border: 10px solid #CCCCCC;
+			vertical-align: middle;
+			font-size: 28px;
+			outline: none;
+			border-radius: 10px;
+			background: #FFFFFF;
+			color: black;
+			text-decoration: none;
+		}
+
+		#ID_Descr {
+			margin-top: 30px;
+		}
+
+		#ID_Options {
+			margin-top: 10px;
+			color: maroon;
+		}
+
+		#ID_SaveAsDef, #ID_ChkboxSaveAsDef{
+			cursor: pointer;
+		}
+
+		#ID_SaveAsDef:hover{
+			color: #2196f3;
+		}
+
+	</style>
+</head>
+<body>
+<div id="ID_Content">
+
+	<h1 id='ID_TITLE'>Format of Default Item Content</h1>
+	<h3 id='ID_SUBTITLE'>In which format to compose default content of the new info item?</h3>
+
+	<div>
+		<div id="ID_LIST">
+			<!--<a id="html" class="box">HTML</a>
+			<a id="qrich" class="box">RICH</a>
+			<a id="txt" class="box">PLAIN</a>
+			<a id="md" class="box">MD</a>-->
+		</div>
+	</div>
+
+	<div id="ID_Descr0" style='display: none;'>
+		<h3 id="ID_Descr1">HTML Document</h3>
+		<p id="ID_Descr2">To save web contents with full support of HTML/CSS layouts</p>
+	</div>
+
+	<div id="ID_Options" style="margin-top: 3em;">
+		<label><input type='checkbox' id='ID_ChkboxSaveAsDef' onclick='javascript:_saveAsDefaults();' />
+		<span id='ID_SaveAsDef'>Don't ask me again, save my choice as defaults;</span></label>
+	</div>
+</div>
+
+<script>
+
+function _init()
+{
+	var _htmlEncode=function(s)
+	{
+		//http://en.wikipedia.org/wiki/List_of_XML_and_HTML_character_entity_references
+		s=s.replace(/&/g,       '&amp;');
+		s=s.replace(/</g,       '&lt;');
+		s=s.replace(/>/g,       '&gt;');
+		s=s.replace(/\"/g,      '&quot;');
+		s=s.replace(/\'/g,      '&apos;');
+		s=s.replace(/\xA0/g,    '&nbsp;'); //http://www.fileformat.info/info/unicode/char/a0/index.htm
+		s=s.replace(/  /g,      '&nbsp; ');
+		s=s.replace(/\t/g,      '&nbsp; &nbsp; &nbsp; &nbsp; '); //&emsp;
+		//and more ...
+		return s;
+	};
+
+	var c_vDocFmtInfo=[%AVAILABLE_FORMATS%];
+
+	var _dataOf=function(id) {
+		for(var i in c_vDocFmtInfo){
+			var f=c_vDocFmtInfo[i];
+			if(f.ext==id){
+				return f;
+			}
+		}
+	};
+
+	var xTitle=document.getElementById('ID_TITLE');
+	var xSubTitle=document.getElementById('ID_SUBTITLE');
+	var xList=document.getElementById('ID_LIST');
+	var xAsDef=document.getElementById('ID_SaveAsDef');
+	var xDescr0 = document.getElementById("ID_Descr0");
+	var xDescr1 = document.getElementById("ID_Descr1");
+	var xDescr2 = document.getElementById("ID_Descr2");
+
+	var c_sTitle='%FORM_TITLE%';
+	var c_sSubTitle='%FORM_SUBTITLE%';
+	var c_sAsDef='%SAVE_AS_DEF%';
+
+	if(xTitle) xTitle.innerHTML=_htmlEncode(c_sTitle||'');
+	if(xSubTitle) xSubTitle.innerHTML=_htmlEncode(c_sSubTitle||'');
+	if(xAsDef) xAsDef.innerHTML=_htmlEncode(c_sAsDef||'');
+
+	if(xList){
+
+		var sHtml='';
+		for(var i in c_vDocFmtInfo){
+			var f=c_vDocFmtInfo[i];
+			if(sHtml) sHtml+='\n';
+			sHtml+="<a id='%EXT%' class='CLS_Box' href='nyf://internal-command?cmd=newnote&ext=%EXT%&def=0'>%ALIAS%</a>"
+				.replace(/%EXT%/g, f.ext)
+				.replace(/%ALIAS%/g, _htmlEncode(f.alias))
+				//.replace(/%NAME%/g, _htmlEncode(f.name))
+				//.replace(/%HINT%/g, _htmlEncode(f.hint))
+				;
+		}
+
+		xList.innerHTML=sHtml;
+
+		var vChild=xList.children;
+		if(vChild.length>0){
+			for(var i = 0; i < vChild.length; i++){
+				var a = vChild[i];
+				a.addEventListener("mousemove", function(){
+					_mouseMove(this.id);
+				});
+			}
+
+			var _mouseMove=function(id) {
+				for(var i=0; i<vChild.length; i++){
+					var a=vChild[i];
+					if(a.id != id){
+						a.style.border = "10px solid #CCCCCC";
+					}else{
+						a.style.border = "10px solid #2196f3";
+					}
+				}
+				var f=_dataOf(id);
+				if(f && f.ext==id){
+					xDescr1.innerHTML=_htmlEncode(f.name);
+					xDescr2.innerHTML=_htmlEncode(f.hint);
+					xDescr0.style.display='block';
+				}
+			};
+		}
+	}
+}
+
+function _saveAsDefaults()
+{
+	var xElm=document.getElementById('ID_ChkboxSaveAsDef');
+	if(xElm){
+		var bDef=xElm.checked;
+		var vLinks=document.getElementsByTagName('a');
+		for(var i in vLinks){
+			var a=vLinks[i];
+			if(a && a.href){
+				var u=(a.href||'').replace(/&def=[01]$/i, '&def='+(bDef?'1':'0'));
+				a.href=u; //a.setAttribute('href', u);
+			}
+		}
+	}
+	return false;
+}
+
+window.onload=function(){_init();}
+
+</script>
+
+</body>
+</html>
