@@ -1,0 +1,21 @@
+postman  参数化：
+
+var data = JSON.parse(responseBody);
+if (data.retEntity.token) {
+  tests["Body has token"] = true;
+   postman.setEnvironmentVariable("token", data.retEntity.token);
+}
+else {
+  tests["Body has token"] = false;
+}
+
+
+
+//将数据解析成json格式
+var data=JSON.parse(responseBody);
+
+//获取access_token值
+// var fpurchaseOrderId=data.retEntity[0].purchaseOrderListBOList.fpurchaseOrderId;
+ 
+//设置成环境变量
+postman.setEnvironmentVariable("fpurchaseOrderId", data.retEntity.purchaseOrderListBOList[0].fpurchaseOrderId);
