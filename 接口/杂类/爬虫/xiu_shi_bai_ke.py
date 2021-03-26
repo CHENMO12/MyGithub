@@ -22,4 +22,3 @@ for _ in cont:
         print(_)
         with open('./xiaohua.txt', 'a', encoding='utf-8', errors='ignore') as f:
             f.write(_+"\n")
-

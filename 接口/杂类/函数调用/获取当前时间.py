@@ -7,5 +7,8 @@ img_time = datetime.datetime.now().strftime("%Y-%m-%d")+ " 00:00 "
 print(img_time)
 
 
-a = "0000-0000-0000-0000"
-print(a[:14])
+import time
+import datetime
+t = time.time()
+# print (int(t))                  #秒级时间戳
+print (int(round(t * 1000)))  #毫秒级时间戳
